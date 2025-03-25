@@ -1,24 +1,26 @@
 class NumMatrix {
+private:
+    int m, n;
+    vector<vector<int>> summed;
 public:
-    vector<vector<int>> sat;
-    
     NumMatrix(vector<vector<int>>& matrix) {
-        int row = matrix.size();
-        if (row==0)
-            return;
-        int col = matrix[0].size();
-        sat = vector<vector<int>>(row+1, vector<int>(col+1));
+        m = matrix.size();
+        n= matrix[0].size();
 
-        for(int i=1; i<=row; i++){
-            for(int j=1; j<=col; j++)
-                sat[i][j] = sat[i-1][j]+ sat[i][j-1]- sat[i-1][j-1]+ matrix[i-1][j-1];
+        vector<vector<int>> summed(m+1, vector<int>(n+1,0));
+
+        for(int i=0; i<matrix.size(); i++){
+            for(int j=0; j<matrix[0].size(); j++){
+                summed[i+1][j+1] = summed[i+1][j]+summed[i][j+1]-summed[i][j]+matrix[i][j];
+            }
         }
+        this->summed = summed;
     }
     
     int sumRegion(int row1, int col1, int row2, int col2) {
-        if(sat.size()>0)
-            return sat[row2+1][col2+1]+ sat[row1][col1]- sat[row2+1][col1]- sat[row1][col2+1];
-        return 0;    
+        // TC- O(1)
+        // SC- O(1)
+        return summed[row2+1][col2+1]-summed[row1][col2+1]-summed[row2+1][col1]+summed[row1][col1];
     }
 };
 
