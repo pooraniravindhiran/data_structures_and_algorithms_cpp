@@ -1,5 +1,5 @@
 // TC- O(n)
-// SC- O(n)
+// SC- O(1)
 
 class Solution {
 public:
@@ -9,23 +9,26 @@ public:
             return 0;
         
         // base cases
-        // dp[i] denotes num of ways you can decode string from index 0 upto i-1
-        vector<int> dp(s.size()+1, 0);
-        dp[0] = 1;
+        int two_back = 1;
+        int one_back;
         // check for first char
         if(s[0]=='0')
             return 0;
         else
-            dp[1] = 1;
+            one_back = 1;
         
         // recurrence relation
-        for(int i=2; i<dp.size(); i++){
-            if(s[i-1]!='0')
-                dp[i] += dp[i-1];
-            if(stoi(s.substr(i-2, 2))>=10 and stoi(s.substr(i-2, 2))<=26)
-                dp[i] += dp[i-2];
+        for(int i=1; i<s.size(); i++){
+            int current = 0;
+            if(s[i]!='0')
+                current += one_back;
+            if(stoi(s.substr(i-1, 2))>=10 and stoi(s.substr(i-1, 2))<=26)
+                current += two_back;
+            
+            two_back = one_back;
+            one_back =current;
         }
 
-        return dp[s.size()];
+        return one_back;
     }
 };
