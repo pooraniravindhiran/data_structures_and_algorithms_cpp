@@ -4,29 +4,32 @@ private:
     priority_queue<int, vector<int>, greater<int>> min_heap;
 public:
     MedianFinder() {
-        
     }
     
     void addNum(int num) {
-        if(max_heap.empty() or num<=max_heap.top())
+        // TC- O(logn)
+        // SC- O(n)
+        if(max_heap.empty() or num<max_heap.top())
             max_heap.push(num);
-        else
+        else    
             min_heap.push(num);
         
-        // balance
+        // balance the heaps
         if(min_heap.size()>max_heap.size()){
             max_heap.push(min_heap.top());
             min_heap.pop();
         }
-        else if (max_heap.size() >min_heap.size()+1){
+        else if(min_heap.size()+1<max_heap.size()){
             min_heap.push(max_heap.top());
             max_heap.pop();
         }
     }
     
     double findMedian() {
+        // TC- O(1)
+        // SC- O(1)
         if(min_heap.size()==max_heap.size())
-            return (min_heap.top()+max_heap.top())/2.0;
+            return (double)(min_heap.top()+max_heap.top())/2.0;
         else
             return max_heap.top();
     }
