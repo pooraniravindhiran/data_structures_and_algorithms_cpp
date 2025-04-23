@@ -1,29 +1,24 @@
+// TC- O(n)
+// SC- O(1)
+
 class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
-        // pass1
-        long result=0;
-        for(int i=0; i<nums.size(); i++)
-           result^= nums[i];
-        
-        // cout<<(result & (-result))<<endl;
-        // find last set bit in result
-        result&=~(result-1);
-        
-        //pass2
-        vector<int> ans{0,0};
-        for(int i=0; i<nums.size();i++){
-            // cout<<ans[0]<<endl;
-            // check if that bit is set in nums[i]
-            if((nums[i]&result)==0){
-                // cout<<"unset: "<<nums[i]<<endl;
-                ans[0]^= nums[i];
-            }
-            else{
-                // cout<<"set: "<<nums[i]<<endl;
-                ans[1]^=nums[i];
-            }
+        int xor_all = 0;
+        for(auto num:nums)
+            xor_all ^= num;
+
+        // xor of all nums = a^b where a and b are the numbers that appear once
+        // this xor should have atleast one set bit, i.e atleast one bit ie different btw a and b
+        unsigned int diff_bit = static_cast<unsigned int>(xor_all) & (-static_cast<unsigned int>(xor_all));
+
+        int a = 0, b= 0;
+        for(auto num:nums){
+            if(num & diff_bit)
+                a ^= num;
+            else
+                b ^= num;
         }
-        return ans;
+        return {a,b};
     }
 };
