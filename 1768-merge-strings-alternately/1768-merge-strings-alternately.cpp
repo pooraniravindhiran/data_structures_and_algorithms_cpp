@@ -1,3 +1,6 @@
+// TC- O(m+n)
+// SC- O(1)
+
 class Solution {
 public:
     string mergeAlternately(string word1, string word2) {
