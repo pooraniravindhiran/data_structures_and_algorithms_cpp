@@ -8,19 +8,18 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-// TC- O(l)
-// SC- O(1)
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-        ListNode* curr = head;
-        ListNode* prev = NULL;
+        if(head==NULL or head->next==NULL)
+            return head;
+        ListNode* prev= NULL;
+        ListNode* curr= head;
         while(curr){
-            ListNode* temp = curr->next;
-            curr->next = prev;
-            prev = curr;
-            curr = temp;
+            ListNode* temp= curr->next;
+            curr->next= prev;
+            prev= curr;
+            curr= temp;
         }
         return prev;
     }
