@@ -8,59 +8,73 @@
  *     ListNode(int x, ListNode *next) : val(x), next(next) {}
  * };
  */
-
-// TC- O(n)
-// SC- O(1)
-
 class Solution {
-private:
-    ListNode* reverse_list(ListNode* head){
-        if(!head or !head->next)
-            return head;
-        ListNode* newhead = reverse_list(head->next);
-        head->next->next = head;
-        head->next = NULL;
-        return newhead;
-    }
 public:
     bool isPalindrome(ListNode* head) {
-        // find middle node if odd or middle-1 if even
-        // reverse first half and compre
-
-        // find length of list
-        int list_len = 0;
-        ListNode* curr = head;
-        while(curr){
-            list_len++;
-            curr = curr->next;
+        if(head==NULL or head->next==NULL)
+            return true;
+        
+        // Find end of first half i.e mid point
+        ListNode* slow_ptr= new ListNode;
+        ListNode* fast_ptr= new ListNode;
+        slow_ptr->next=head;
+        fast_ptr->next=head;
+        while(slow_ptr!=NULL and fast_ptr!=NULL and fast_ptr->next!=NULL)
+        {
+            slow_ptr=slow_ptr->next;
+            fast_ptr=fast_ptr->next->next;
         }
-
-        // reverse second half
-        int second_start_pos = ((list_len+1)/2)+1;
-        int curr_len = 1;
-        curr = head;
-        while(curr_len<second_start_pos){
-            curr = curr->next;
-            curr_len++;
+        ListNode* end_of_first_half= slow_ptr;
+        // cout<<"End of first"<<end_of_first_half->val<<endl;
+        
+        // Reverse second half
+        ListNode* curr=end_of_first_half->next;
+        ListNode* prev=curr;
+        curr=curr->next;
+        while(curr!=NULL)
+        {
+            // cout<<"Loop"<<curr->val<<endl;
+            ListNode* temp=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=temp;
         }
-        curr = reverse_list(curr);
-        // ListNode* test = curr;
-        // while(test){
-        //     cout<<test->val<<" ";
-        //     test = test->next;
+        end_of_first_half->next->next=NULL;
+        end_of_first_half->next=prev;
+        // while(head!=NULL)
+        // {
+        //     cout<<head->val<<endl;
+        //     head=head->next;
         // }
-
-        // compare
-        curr_len = 1;
-        ListNode* curr2 = head;
-        int compare_till_pos = (list_len%2==0) ? second_start_pos-1: second_start_pos-2;
-        while(curr_len<=compare_till_pos){
-            if(curr2->val!=curr->val)
-                return false;
-            curr = curr->next;
-            curr2 = curr2->next;
-            curr_len++;
+        
+        // Check if palindrome
+        ListNode* curr1=head;
+        ListNode* curr2=end_of_first_half->next;
+        bool flag=true;
+        while(curr2!=NULL)
+        {
+            if(curr1->val!=curr2->val)
+                flag= false;
+            curr1=curr1->next;
+            curr2=curr2->next;
         }
-        return true;
+        
+        // Reverse second half back to normal
+        curr=end_of_first_half->next;
+        prev=curr;
+        curr=curr->next;
+        while(curr!=NULL)
+        {
+            // cout<<"Loop"<<curr->val<<endl;
+            ListNode* temp=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=temp;
+        }
+        end_of_first_half->next->next=NULL;
+        end_of_first_half->next=prev;
+        
+        // Return result
+        return flag;
     }
 };
