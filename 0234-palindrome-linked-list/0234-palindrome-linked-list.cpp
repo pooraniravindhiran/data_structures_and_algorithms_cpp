@@ -44,11 +44,11 @@ public:
             curr_len++;
         }
         curr = reverse_list(curr);
-        ListNode* test = curr;
-        while(test){
-            cout<<test->val<<" ";
-            test = test->next;
-        }
+        // ListNode* test = curr;
+        // while(test){
+        //     cout<<test->val<<" ";
+        //     test = test->next;
+        // }
 
         // compare
         curr_len = 1;
