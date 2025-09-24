@@ -19,6 +19,9 @@ public:
 };
 */
 
+// TC- O(n+e) where n is number of nodes and e is number of edges
+// SC- O(n)
+
 class Solution {
 private:
     unordered_map<Node*, Node*> visited;
