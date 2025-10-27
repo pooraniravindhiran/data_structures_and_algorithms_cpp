@@ -4,26 +4,24 @@
 class Solution {
 public:
     int carFleet(int target, vector<int>& position, vector<int>& speed) {
-        // create a vector of cars
-        vector<pair<int, double>> cars;
-        for(int i=0; i<position.size(); i++){
-            double time_to_target = (double)(target-position[i])/ speed[i];
-            cars.push_back({position[i], time_to_target});
-        }
+        // pair up position and time to target
+        vector<pair<int, double>> car_stats;
+        for(int i=0; i<position.size(); i++)
+            car_stats.push_back({position[i], (double)(target-position[i])/speed[i]});
 
-        // sort cars by position in descending order
-        sort(cars.begin(),  cars.end(), [](pair<int, double>& a, pair<int, double>& b){return a.first>b.first;});
+        // sort vector in descending order wrt position
+        sort(car_stats.begin(), car_stats.end(), [](pair<int, double> x, pair<int,double> y){return x.first>y.first;});
 
-        // if a car is leading, then the next car whose time_to_target is greater than the curr_car will start a new care fleet. Else, it will join current fleet
-        double current_time = 0.0;
+        // Iterate. Add a new fleet if time_taken is greater than curr
+        double curr_fleet_time = 0.0;
         int num_fleets = 0;
-        for(auto &car:cars){
-            if(car.second > current_time){
-                current_time = car.second;
+        for(auto& [pos, time]: car_stats){
+            if(time>curr_fleet_time){
+                curr_fleet_time = time;
                 num_fleets++;
             }
         }
-
         return num_fleets;
+
     }
 };
