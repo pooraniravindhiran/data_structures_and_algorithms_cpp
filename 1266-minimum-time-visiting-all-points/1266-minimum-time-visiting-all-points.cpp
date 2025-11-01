@@ -1,3 +1,6 @@
+// tc- o(n)
+// sc- o(1)
+
 class Solution {
 public:
     int minTimeToVisitAllPoints(vector<vector<int>>& points) {
