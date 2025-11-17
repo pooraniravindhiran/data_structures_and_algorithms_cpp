@@ -1,0 +1,29 @@
+// TC- O(n)
+// SC- O(1)
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* removeNthFromEnd(ListNode* head, int n) {
+        ListNode* dummy = new ListNode(0, head);
+        ListNode* slowptr = dummy;
+        ListNode* fastptr = dummy;
+        for(int i=0; i<n+1; i++)
+            fastptr = fastptr->next;
+        while(fastptr){
+            fastptr = fastptr->next;
+            slowptr = slowptr->next;
+        }
+        slowptr->next = slowptr->next->next;
+        return dummy->next;
+    }
+};
