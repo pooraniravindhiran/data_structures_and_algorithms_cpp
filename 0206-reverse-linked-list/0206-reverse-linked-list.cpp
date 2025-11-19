@@ -1,3 +1,6 @@
+// TC- O(n)
+// SC- O(1)
+
 /**
  * Definition for singly-linked list.
  * struct ListNode {
@@ -13,14 +16,18 @@ public:
     ListNode* reverseList(ListNode* head) {
         if(head==NULL or head->next==NULL)
             return head;
-        ListNode* prev= NULL;
-        ListNode* curr= head;
+        ListNode* prev = NULL;
+        ListNode* curr = head;
+
         while(curr){
-            ListNode* temp= curr->next;
-            curr->next= prev;
-            prev= curr;
-            curr= temp;
+            // cout<<prev->val<<" "<<curr->val<<endl;
+            ListNode* temp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = temp;
         }
         return prev;
     }
 };
+
+
