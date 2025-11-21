@@ -9,24 +9,14 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
-// TC- O(n)
-// SC- O(h)
-
 class Solution {
-private:
-    bool recursive_helper(TreeNode* node, int target){
-        if(!node)
-            return false;
-        else if(!node->left && !node->right && target==0)
-            return true;
-        else
-            return (recursive_helper(node->left, target-node->val) or recursive_helper(node->right, target-node->val));
-    }
 public:
     bool hasPathSum(TreeNode* root, int targetSum) {
-        if(!root)
+        if(root==NULL)
             return false;
-        return recursive_helper(root, targetSum-root->val);
+        else if(root->left==NULL and root->right==NULL and targetSum==root->val)
+            return true;
+        else
+            return hasPathSum(root->left, targetSum-root->val) or hasPathSum(root->right, targetSum-root->val);
     }
 };
