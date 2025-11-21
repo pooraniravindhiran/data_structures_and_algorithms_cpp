@@ -1,3 +1,6 @@
+// TC - O(NH)
+// SC- O(H)
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -9,29 +12,23 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
-// TC- O(N + NH) = O(NH) where O(N) is for DFS and O(NH) is for copying all valid paths. copying one path is O(H) and there could be N/2 leaves.
-// SC- O(H+H) = O(H) where H is max height of tree
-
 class Solution {
 private:
-    vector<vector<int>> result;
-    void recursive_helper(TreeNode* node, int target, vector<int>& curr_path){
-        if(!node)
+    void dfs_helper(TreeNode* root, int targetSum, vector<vector<int>>& result, vector<int>& curr){
+        if(!root)
             return;
-        curr_path.push_back(node->val);
-        if(!node->left && !node->right && target==node->val)
-            result.push_back(curr_path);
-        recursive_helper(node->left, target-node->val, curr_path);
-        recursive_helper(node->right, target-node->val, curr_path);
-        curr_path.pop_back();
+        curr.push_back(root->val);
+        if(root->val==targetSum and !root->left and !root->right)
+            result.push_back(curr);
+        dfs_helper(root->left, targetSum-root->val, result, curr);
+        dfs_helper(root->right, targetSum-root->val, result, curr);
+        curr.pop_back();
     }
 public:
     vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
-        if(!root)
-            return result;
-        vector<int> curr_path;
-        recursive_helper(root, targetSum, curr_path);
+        vector<vector<int>> result;
+        vector<int> curr;
+        dfs_helper(root, targetSum, result, curr);
         return result;
     }
 };
