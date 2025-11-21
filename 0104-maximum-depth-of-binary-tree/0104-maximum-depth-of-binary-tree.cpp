@@ -11,75 +11,19 @@
  */
 
 // TC- O(n)
-// SC- O(n) (best case- balanced tree- O(logn))
+// SC- O(h) - where h is height of tree. worst case it is n, and best case it is logn
 
 class Solution {
-    int rBFS(TreeNode* node, int level){
-        if(node==NULL)
+private:
+    int rbfs(TreeNode* node, int level){
+        if(!node)
             return level-1;
-        return max(rBFS(node->left, level+1), rBFS(node->right, level+1));
+        return max(rbfs(node->left, level+1), rbfs(node->right, level+1));
     }
 public:
     int maxDepth(TreeNode* root) {
-        if(root==NULL)
+        if(!root)
             return 0;
-        return rBFS(root, 1);
+        return rbfs(root, 1);
     }
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//  Top down approach
-// class Solution {
-//     int ans=0;
-//     void helper(TreeNode* node, int depth){
-//         if(node==NULL)
-//             return;
-//         if(node->left==NULL and node->right==NULL)
-//             ans= max(ans, depth);
-//         helper(node->left,depth+1);
-//         helper(node->right, depth+1);
-//     }
-// public:
-//     int maxDepth(TreeNode* root) {
-//         helper(root, 1);
-//         return ans;
-//     }
-// };
-
-//bottom up approach
-// class Solution {
-//     int helper(TreeNode* node){
-//         if(node==NULL)
-//             return 0;
-//         return max(helper(node->left), helper(node->right))+1;
-//     }
-// public:
-//     int maxDepth(TreeNode* root) {
-//         return helper(root);
-//     }
-// };
