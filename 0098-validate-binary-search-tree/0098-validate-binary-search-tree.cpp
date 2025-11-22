@@ -14,15 +14,15 @@
  */
 class Solution {
 private:
-    bool isInBetween(TreeNode* node, long min_val, long max_val){
+    bool isInBetween(TreeNode* node, long llim, long ulim){
         if(!node)
             return true;
-        if(node->val>max_val or node->val<min_val)
+        if(node->val>=ulim or node->val<=llim)
             return false;
-        return (isInBetween(node->left, min_val, node->val-1) and isInBetween(node->right, node->val+1, max_val));
+        return (isInBetween(node->left, llim, node->val) and isInBetween(node->right, node->val, ulim));
     }
 public:
     bool isValidBST(TreeNode* root) {
-        return isInBetween(root, INT_MIN, INT_MAX);
+        return isInBetween(root, LONG_MIN, LONG_MAX);
     }
 };
