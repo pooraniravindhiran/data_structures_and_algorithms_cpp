@@ -1,3 +1,6 @@
+// TC- O(n)
+// SC- O(n)
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -9,21 +12,17 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
-// TC- O(n)
-// SC- O(h)
-
 class Solution {
 private:
-    bool helper(TreeNode* node, long llim, long ulim){
+    bool isInBetween(TreeNode* node, long min_val, long max_val){
         if(!node)
             return true;
-        if(node->val>=ulim or node->val<=llim)
+        if(node->val>max_val or node->val<min_val)
             return false;
-        return (helper(node->left, llim, node->val) and helper(node->right, node->val, ulim));
+        return (isInBetween(node->left, min_val, node->val-1) and isInBetween(node->right, node->val+1, max_val));
     }
 public:
     bool isValidBST(TreeNode* root) {
-        return helper(root, LONG_MIN, LONG_MAX);
+        return isInBetween(root, INT_MIN, INT_MAX);
     }
 };
