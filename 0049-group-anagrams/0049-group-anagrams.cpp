@@ -1,43 +1,30 @@
-// TC- NK where N is the number of strings and K is the max string length, SC- O(NK)
+// TC- O(N*L) where N is num_words and L is len of a word
+// SC- O(N*L)
+
 class Solution {
+private:
+    unordered_map<string, vector<string>> mp;
 public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-        
-        unordered_map<string,vector<string>> map;
-        for(int i=0; i<strs.size(); i++)
-        {
-            vector<int> mem(26,0);
-            string s= strs[i];
-            for(int j=0; j<s.length();j++)
-                mem[int(s[j])-int('a')]++;
+        for(string word:strs){
+            // create freq vector
+            vector<int> freq(26, 0);
+            for(char ch:word)
+                freq[ch-'a']++;
+            
+            // convert freq vector to string to store as key
             string code="";
-            for(int j=0; j<mem.size(); j++)
-                code+=mem[j];
-            map[code].push_back(strs[i]);
+            for(int i=0; i<26; i++)
+                code += to_string(freq[i]) + '#';
+            
+            // add to unordered_map
+            mp[code].push_back(word);
         }
-        
-        vector<vector<string>> res;
-        for(auto key:map)
-            res.push_back(key.second);
-        return res;
+
+        vector<vector<string>> result;
+        for(auto& [key, words]:mp){
+            result.push_back(words);
+        }
+        return result;
     }
 };
-
-// // TC- NKlog(K) where N is the number of strings and K is the max string length, SC- O(NK)
-// class Solution {
-// public:
-//     vector<vector<string>> groupAnagrams(vector<string>& strs) {
-//         unordered_map<string,vector<string>> map;
-//         for(int i=0; i<strs.size(); i++)
-//         {
-//             string s= strs[i];
-//             sort(s.begin(), s.end());
-//             map[s].push_back(strs[i]);
-//         }
-        
-//         vector<vector<string>> res;
-//         for(auto key:map)
-//             res.push_back(key.second);
-//         return res;
-//     }
-// };
