@@ -1,3 +1,6 @@
+// TC- O(mn)
+// SC- O(mn)
+
 class Solution {
 public:
     void wallsAndGates(vector<vector<int>>& rooms) {
@@ -17,24 +20,18 @@ public:
             }
         }
 
-        int level =0;
         while(!q.empty()){
-            int q_size = q.size();
-            for(int i=0; i<q_size; i++){
-                int r = q.front().first;
-                int c = q.front().second;
-                q.pop();
-                if(rooms[r][c] == INT_MAX)
-                    rooms[r][c] = level;
-                for(int d=0; d<directions.size()-1; d++){
-                    int next_r = r+directions[d];
-                    int next_c = c+directions[d+1];
-                    if(next_r>=0 and next_r<rows and next_c>=0 and next_c<cols and rooms[next_r][next_c]==INT_MAX)
-                        q.push({next_r, next_c});
+            int r = q.front().first;
+            int c = q.front().second;
+            q.pop();
+            for(int d=0; d<directions.size()-1; d++){
+                int next_r = r+directions[d];
+                int next_c = c+directions[d+1];
+                if(next_r>=0 and next_r<rows and next_c>=0 and next_c<cols and rooms[next_r][next_c]==INT_MAX){
+                    q.push({next_r, next_c});
+                    rooms[next_r][next_c] = rooms[r][c]+1;
                 }
-                
             }
-            level++;
         }
     }
 };
