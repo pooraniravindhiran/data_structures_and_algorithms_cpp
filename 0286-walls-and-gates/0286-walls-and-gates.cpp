@@ -1,38 +1,40 @@
-// TC- O(m*n)
-// SC- O(m*n)
-
 class Solution {
 public:
     void wallsAndGates(vector<vector<int>>& rooms) {
-        // go from gates and add all gates to queue
-        queue<pair<int, int>> q;
-        int r = rooms.size();
-        int c = rooms[0].size();
-        for(int i=0; i<r; i++){
-            for(int j=0; j<c; j++){
+        // we pick BFS because we need to find the distance to the "nearest" gate
+        // we can do BFS from gate or empty room. If done from empty room, then we need to do BFS from every room- so O(mn*mn). If done from every gate, then we do O(G*mn). But if we push all gates into queue first and then do BFS, we visit every cell only once- so TC is O(mn). So we pick the last option- which is multi source BFS
+
+        int rows = rooms.size();
+        int cols = rooms[0].size();
+        queue<pair<int,int>> q;
+        vector<int> directions = {1, 0, -1, 0, 1};
+
+        // push all gates into the queue
+        for(int i=0; i<rows; i++){
+            for(int j=0; j<cols; j++){
                 if(rooms[i][j]==0)
-                    q.emplace(i,j);
+                    q.push({i,j});
             }
         }
 
-        // do multisource bfs
-        vector<int> dir = {-1, 0, 1, 0, -1};
+        int level =0;
         while(!q.empty()){
-            int qsize = q.size();
-            for(int i=0; i<q.size(); i++){
-                int row = q.front().first;
-                int col = q.front().second;
+            int q_size = q.size();
+            for(int i=0; i<q_size; i++){
+                int r = q.front().first;
+                int c = q.front().second;
                 q.pop();
-
-                for(int d=0; d<dir.size()-1; d++){
-                    int next_row = row + dir[d];
-                    int next_col = col+ dir[d+1];
-                    if(next_row>=0 and next_row<r and next_col>=0 and next_col<c and rooms[next_row][next_col]>rooms[row][col]+1){
-                        rooms[next_row][next_col] = rooms[row][col]+1;
-                        q.emplace(next_row, next_col);
-                    }
+                if(rooms[r][c] == INT_MAX)
+                    rooms[r][c] = level;
+                for(int d=0; d<directions.size()-1; d++){
+                    int next_r = r+directions[d];
+                    int next_c = c+directions[d+1];
+                    if(next_r>=0 and next_r<rows and next_c>=0 and next_c<cols and rooms[next_r][next_c]==INT_MAX)
+                        q.push({next_r, next_c});
                 }
+                
             }
+            level++;
         }
     }
 };
