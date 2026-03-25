@@ -52,10 +52,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0155-min-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0155-min-stack/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0155-min-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0155-min-stack/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
