@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0083-remove-duplicates-from-sorted-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 ## Stack
 | Problem Name | Difficulty |
