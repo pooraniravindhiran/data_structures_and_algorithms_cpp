@@ -1,5 +1,5 @@
 # TC- O(n)
-# SC- O(n)
+# SC- O(1)
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
@@ -15,6 +15,8 @@ class Solution:
 
         return res
 
+# TC- O(n)
+# SC- O(n)
 # class Solution:
 #     def productExceptSelf(self, nums: List[int]) -> List[int]:
 #         n = len(nums)
