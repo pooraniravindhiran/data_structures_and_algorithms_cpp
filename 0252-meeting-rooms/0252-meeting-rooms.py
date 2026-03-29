@@ -1,5 +1,5 @@
 # TC- O(nlogn)
-# SC- O(n)
+# SC- O(1)
 
 class Solution:
     def canAttendMeetings(self, intervals: List[List[int]]) -> bool:
