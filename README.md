@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0014-longest-common-prefix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0014-longest-common-prefix/) | Easy |
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
 ## Trie
@@ -51,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0036-valid-sudoku](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -200,4 +202,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 <!---LeetCode Topics End-->
