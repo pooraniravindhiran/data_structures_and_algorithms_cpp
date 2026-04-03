@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Dynamic Programming
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0252-meeting-rooms](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0252-meeting-rooms/) | Easy |
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Breadth-First Search
@@ -80,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0240-search-a-2d-matrix-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -136,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0098-validate-binary-search-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -155,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Bucket Sort
