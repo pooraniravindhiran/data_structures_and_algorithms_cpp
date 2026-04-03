@@ -4,7 +4,7 @@
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
         # binary search through all elements
-        rows,cols = len(matrix), len(matrix[0])
+        rows, cols = len(matrix), len(matrix[0])
         high = (rows*cols)-1
         low = 0
 
