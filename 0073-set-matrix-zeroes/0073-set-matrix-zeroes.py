@@ -1,3 +1,6 @@
+# TC- O(mn)
+# SC- O(1)
+
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
