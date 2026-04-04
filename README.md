@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
+| [2121-intervals-between-identical-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2121-intervals-between-identical-elements/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -65,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
+| [2121-intervals-between-identical-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2121-intervals-between-identical-elements/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -199,6 +201,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0238-product-of-array-except-self](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [2121-intervals-between-identical-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2121-intervals-between-identical-elements/) | Medium |
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
