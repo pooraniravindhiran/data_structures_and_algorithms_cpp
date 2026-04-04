@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0036-valid-sudoku](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0036-valid-sudoku/) | Medium |
 | [0048-rotate-image](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
+| [0054-spiral-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0054-spiral-matrix/) | Medium |
 | [0056-merge-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0056-merge-intervals/) | Medium |
 | [0057-insert-interval](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0057-insert-interval/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0036-valid-sudoku](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0036-valid-sudoku/) | Medium |
 | [0048-rotate-image](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0048-rotate-image/) | Medium |
+| [0054-spiral-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
@@ -217,4 +219,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0054-spiral-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0054-spiral-matrix/) | Medium |
 <!---LeetCode Topics End-->
