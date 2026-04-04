@@ -118,6 +118,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0138-copy-list-with-random-pointer](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0206-reverse-linked-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0206-reverse-linked-list/) | Easy |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 ## Stack
@@ -160,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0021-merge-two-sorted-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0021-merge-two-sorted-lists/) | Easy |
 | [0024-swap-nodes-in-pairs](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0024-swap-nodes-in-pairs/) | Medium |
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
+| [0206-reverse-linked-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0206-reverse-linked-list/) | Easy |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
