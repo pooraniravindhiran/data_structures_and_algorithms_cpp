@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0002-add-two-numbers/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0021-merge-two-sorted-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0021-merge-two-sorted-lists/) | Easy |
+| [0023-merge-k-sorted-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0024-swap-nodes-in-pairs](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0024-swap-nodes-in-pairs/) | Medium |
 | [0061-rotate-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0061-rotate-list/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
@@ -186,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -193,6 +195,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -255,4 +258,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0085-maximal-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0085-maximal-rectangle/) | Hard |
+## Merge Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0023-merge-k-sorted-lists/) | Hard |
 <!---LeetCode Topics End-->
