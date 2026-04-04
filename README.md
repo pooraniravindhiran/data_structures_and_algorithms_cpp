@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0002-add-two-numbers/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0083-remove-duplicates-from-sorted-list/) | Easy |
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
@@ -141,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0002-add-two-numbers/) | Medium |
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
@@ -209,6 +211,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0002-add-two-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0002-add-two-numbers/) | Medium |
 | [0048-rotate-image](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0048-rotate-image/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Geometry
