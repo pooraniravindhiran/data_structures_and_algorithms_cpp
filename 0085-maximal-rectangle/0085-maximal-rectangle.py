@@ -3,32 +3,29 @@
 
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
+        # for every row, you compute height add 1 if 1, else reset to 0
+        # area is width*height. width here would be whenever height decreases
         rows, cols = len(matrix), len(matrix[0])
-        heights = [0]*cols
-        max_area = 0
+        heights = [0]*(cols+1)
+        maxarea = 0
 
         for row in matrix:
-
-            # create rows that represent heights
-            for c in range(cols):
-                if row[c]=='0':
-                    heights[c] = 0
-                else:
-                    heights[c] += 1
             
-            # use a monotonic stack to keep indices of bars with increasing order
-            # example for row3- 3 1 3 2 2 
-            stack = [-1] 
-            for c in range(cols):
-                while stack[-1]!=-1 and heights[c]<heights[stack[-1]]:
-                    h = heights[stack.pop()]
-                    w = c-1-stack[-1]
-                    max_area = max(max_area, w*h)
-                stack.append(c)
-
-            while(stack[-1]!=-1):
-                h = heights[stack.pop()]
-                w = cols-1-stack[-1]
-                max_area = max(max_area, w*h)
-
-        return max_area
+            # compute heights for this row
+            for idx, col in enumerate(row):
+                if col=="1":
+                    heights[idx]+=1
+                else:
+                    heights[idx] = 0
+            
+            stack = []
+            # compute largest area for this row
+            for idx, ht in enumerate(heights):
+                while stack and ht<heights[stack[-1]]:
+                    height = heights[stack.pop()]
+                    rb = idx-1
+                    lb = 0 if not stack else stack[-1]+1
+                    width = rb-lb+1
+                    maxarea=max(maxarea, width*height)
+                stack.append(idx)
+        return maxarea
