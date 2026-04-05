@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0014-longest-common-prefix/) | Easy |
+| [0033-search-in-rotated-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0036-valid-sudoku](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0036-valid-sudoku/) | Medium |
 | [0048-rotate-image](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0048-rotate-image/) | Medium |
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
@@ -192,6 +193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
