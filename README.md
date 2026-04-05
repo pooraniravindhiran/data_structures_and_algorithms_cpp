@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0566-reshape-the-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0566-reshape-the-matrix/) | Easy |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2121-intervals-between-identical-elements/) | Medium |
@@ -150,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
 | [0155-min-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0155-min-stack/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
+| [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 ## Design
 | Problem Name | Difficulty |
@@ -296,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0085-maximal-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0085-maximal-rectangle/) | Hard |
+| [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
