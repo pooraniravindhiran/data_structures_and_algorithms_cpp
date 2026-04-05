@@ -1,9 +1,8 @@
-# TC- O(m+n)
+# TC- O(n)
 # SC- O(1)
 
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
-        left, right = 0, len(s1)-1
 
         # count letters in s1
         count = [0]*26
