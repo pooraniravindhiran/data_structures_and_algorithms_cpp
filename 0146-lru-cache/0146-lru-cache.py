@@ -9,7 +9,7 @@ class LRUCache:
         self.order = deque()
 
     def get(self, key: int) -> int:
-        # TC- O(1)
+        # TC- O(n)
         # return val or -1
         if key not in self.dict:
             return -1
@@ -21,7 +21,7 @@ class LRUCache:
         return self.dict[key]
 
     def put(self, key: int, value: int) -> None:
-        # TC- O(1)
+        # TC- O(n)
         if key in self.dict:
             # update key in dict
             self.dict[key] = value
