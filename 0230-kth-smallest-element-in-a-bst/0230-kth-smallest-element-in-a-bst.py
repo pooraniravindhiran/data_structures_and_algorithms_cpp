@@ -21,8 +21,8 @@
 #         self.inorderTraversal(root, nodes)
 #         return nodes[k-1]
 
-# TC- O(h+k)
-# SC- O(h)
+# TC- O(k)
+# SC- O(h) - logn if balanced, n if skewed tree
 
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
