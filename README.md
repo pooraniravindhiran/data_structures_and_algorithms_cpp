@@ -36,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0566-reshape-the-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0566-reshape-the-matrix/) | Easy |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0146-lru-cache/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
+| [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
@@ -129,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0240-search-a-2d-matrix-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0566-reshape-the-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0566-reshape-the-matrix/) | Easy |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
