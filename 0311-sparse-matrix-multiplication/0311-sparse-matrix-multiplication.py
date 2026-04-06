@@ -1,3 +1,6 @@
+# SC- O(m+n)
+# TC- O(MK + KN + MNL) where L is number of non zero elements
+
 class Solution:
     def multiply(self, mat1: List[List[int]], mat2: List[List[int]]) -> List[List[int]]:
         # Represent the 1st matrix in CSR format and 2nd matrix in CSC format
