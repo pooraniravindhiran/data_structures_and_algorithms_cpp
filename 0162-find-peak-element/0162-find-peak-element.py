@@ -1,3 +1,5 @@
+# TC- O(n), SC- O(1)
+
 class Solution:
     def findPeakElement(self, nums: List[int]) -> int:
         n = len(nums)
