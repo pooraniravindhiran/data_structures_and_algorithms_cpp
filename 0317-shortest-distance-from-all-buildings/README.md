@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/shortest-distance-from-all-buildings">317. Shortest Distance from All Buildings</a></h2><h3>Hard</h3><hr><p>You are given an <code>m x n</code> grid <code>grid</code> of values <code>0</code>, <code>1</code>, or <code>2</code>, where:</p>
+<h2><a href="https://leetcode.com/problems/shortest-distance-from-all-buildings/">317. Shortest Distance from All Buildings</a></h2><h3>Hard</h3><hr><p>You are given an <code>m x n</code> grid <code>grid</code> of values <code>0</code>, <code>1</code>, or <code>2</code>, where:</p>
 
 <ul>
 	<li>each <code>0</code> marks <strong>an empty land</strong> that you can pass by freely,</li>
