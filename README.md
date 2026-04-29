@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
+| [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0528-random-pick-with-weight/) | Medium |
@@ -124,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
+| [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
@@ -139,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
+| [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0566-reshape-the-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0566-reshape-the-matrix/) | Easy |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
