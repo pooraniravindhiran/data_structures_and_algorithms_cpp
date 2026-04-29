@@ -1,11 +1,14 @@
+# TC- O(nlogn)
+# SC- O(n)
+
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-        intervals.sort()
-        min_heap = []
-        for i in range(len(intervals)):
-            start, end = intervals[i]
-            if(min_heap and start>=min_heap[0]):
-                heapq.heappop(min_heap)
-            heapq.heappush(min_heap, intervals[i][1])
-        return len(min_heap)
-
+        intervals.sort(key=lambda x:x[0])
+        min_rooms = []
+        for interval in intervals:
+            start, end = interval
+            if min_rooms and start>=min_rooms[0]:
+                heapq.heappop(min_rooms)
+            heapq.heappush(min_rooms, end)
+            
+        return len(min_rooms)
