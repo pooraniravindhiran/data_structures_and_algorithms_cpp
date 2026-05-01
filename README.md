@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
+| [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -77,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0076-minimum-window-substring/) | Hard |
 | [0424-longest-repeating-character-replacement](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0567-permutation-in-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0567-permutation-in-string/) | Medium |
+| [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
@@ -103,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0567-permutation-in-string/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2121-intervals-between-identical-elements/) | Medium |
 ## Sorting
@@ -118,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 ## Breadth-First Search
@@ -274,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
+| [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 ## Bucket Sort
@@ -285,6 +290,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
+| [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
