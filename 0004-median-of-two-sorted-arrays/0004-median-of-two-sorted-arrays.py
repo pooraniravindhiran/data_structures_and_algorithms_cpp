@@ -1,3 +1,6 @@
+# TC- O(log(min(m, n)))
+# SC- O(1)
+
 class Solution:
     def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
         # Instead of merging the arrays, which takes O(m+n), I want to find a perfect cut through both arrays at the same time. This cut must divide the combined elements into two equal halves: a Left Pile and a Right Pile.
@@ -9,13 +12,18 @@ class Solution:
         half_len = (len(nums1)+len(nums2)+1)//2 #+1 is just to handle odd length total such that the middle element is in left and not right half
 
         while left<=right:
-            mid_i = left+(right-left)//2
-            mid_j = half_len-mid_i
+            mid_i = left+(right-left)//2 #partition idx in nums1
+            mid_j = half_len-mid_i #partition idx in nums1
 
+            # Include more elems in left partition of nums1 if nums1[mid]<nums2[mid-1]
             if mid_i<len(nums1) and nums2[mid_j-1]>nums1[mid_i]:
                 left = mid_i+1
+            
+            # Remove elems from left partition of nums1 if nums1[mid]>nums2[mid-1]
             elif mid_i>0 and nums1[mid_i-1]>nums2[mid_j]:
                 right = mid_i-1
+            
+            # Compute median given partition
             else:
                 if mid_i==0:
                     max_left = nums2[mid_j-1]
@@ -37,5 +45,3 @@ class Solution:
                     else:
                         min_right = min(nums1[mid_i], nums2[mid_j])
                     return (max_left+min_right)/2
-
-
