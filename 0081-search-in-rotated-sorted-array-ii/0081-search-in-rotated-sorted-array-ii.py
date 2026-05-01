@@ -1,4 +1,4 @@
-# TC- O(logn)
+# TC- O(n)
 # SC- O(1)
 
 class Solution:
