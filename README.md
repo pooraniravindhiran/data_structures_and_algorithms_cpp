@@ -136,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0210-course-schedule-ii/) | Medium |
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
@@ -242,6 +243,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0133-clone-graph/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
 | [0207-course-schedule](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0210-course-schedule-ii/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 ## Binary Search Tree
@@ -394,6 +396,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0133-clone-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0133-clone-graph/) | Medium |
 | [0207-course-schedule](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0210-course-schedule-ii/) | Medium |
 ## Randomized
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -402,4 +405,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0207-course-schedule/) | Medium |
+| [0210-course-schedule-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0210-course-schedule-ii/) | Medium |
 <!---LeetCode Topics End-->
