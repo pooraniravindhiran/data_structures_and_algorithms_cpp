@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0566-reshape-the-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0566-reshape-the-matrix/) | Easy |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [0875-koko-eating-bananas](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -158,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0566-reshape-the-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0566-reshape-the-matrix/) | Easy |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 ## Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -246,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0210-course-schedule-ii/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -353,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0128-longest-consecutive-sequence](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
