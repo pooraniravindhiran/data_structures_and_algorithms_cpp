@@ -1,4 +1,4 @@
-# TC- O(h)
+# TC- O(n+e)
 # SC- O(n)
 
 """
@@ -12,21 +12,17 @@ class Node:
 from typing import Optional
 class Solution:
     def __init__(self):
-        self.dict = {}
+        self.clone_dict = {}
 
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         if node is None:
             return None
-
-        if node in self.dict:
-            return self.dict[node]
+        if node in self.clone_dict:
+            return self.clone_dict[node]
         
-        new_node = Node(val=node.val)
-        self.dict[node] = new_node
-        if len(node.neighbors)>0:
-            new_node.neighbors = []
-        for i in range(len(node.neighbors)):
-            neighbor = node.neighbors[i]
-            new_node.neighbors.append(self.cloneGraph(neighbor))
-
-        return new_node
+        self.clone_dict[node] = Node(node.val)
+        for neigh in node.neighbors:
+            self.clone_dict[node].neighbors.append(self.cloneGraph(neigh))
+        return self.clone_dict[node]
+         
+      
