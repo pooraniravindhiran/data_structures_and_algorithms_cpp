@@ -3,13 +3,12 @@
 
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
-        last_index = {}
-        ans = 0
-        start = 0
-
-        for end, ch in enumerate(s):
-            if ch in last_index and start<=last_index[ch]:
-                start = last_index[ch]+1
-            last_index[ch] = end
-            ans = max(ans, end-start+1)
-        return ans     
+        last_occ = {}
+        left = 0
+        max_len = 0
+        for right in range(len(s)):
+            if s[right] in last_occ:
+                left = max(left, last_occ[s[right]]+1)
+            max_len = max(max_len, right-left+1)
+            last_occ[s[right]] = right
+        return max_len
