@@ -12,7 +12,7 @@ class Solution:
                 if matrix[r][c]==1:
                     matrix[r][c] += matrix[r-1][c]
         
-        max_area = 0
+        max_area = 0 # if matrix has all 0s
         # since cols are exchangeable, to find largest submatrix, let's sort heights in descending order for each row
         for r in range(rows):
             current_row = sorted(matrix[r], reverse=True)
