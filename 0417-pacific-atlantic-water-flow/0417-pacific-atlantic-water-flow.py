@@ -3,37 +3,45 @@
 
 class Solution:
     def pacificAtlantic(self, heights: List[List[int]]) -> List[List[int]]:
-        rows, cols = len(heights), len(heights[0])
+        # let's identify cells from which rain flows into Pacific and add them into a set
+        # let's identify cells from which rain flows into Atlantic and add them into a set
+        # finally, let's find their intersection
+        # it's easier to traverse from the ocean to cells than otherway round
 
-        pacific = set()
-        atlantic = set()
+        to_pacific_cells = set()
+        to_atlantic_cells = set()
+        
+        rows = len(heights)
+        cols = len(heights[0])
+        dirs = [-1, 0, 1, 0, -1]
 
-        def dfs(r, c, visited):
-            visited.add((r, c))
+        def dfs(i, j, visited):
+            if (i,j) in visited:
+                return
 
-            dirs = [-1, 0, 1, 0, -1]
+            visited.add((i, j))
             for d in range(len(dirs)-1):
-                nr, nc = r + dirs[d], c + dirs[d+1]
+                next_i = i+dirs[d]
+                next_j = j+dirs[d+1]
+                if 0<=next_i<rows and 0<=next_j<cols and (next_i, next_j) not in visited and heights[next_i][next_j]>=heights[i][j]:
+                    dfs(next_i, next_j, visited)
 
-                if (
-                    0 <= nr < rows and
-                    0 <= nc < cols and
-                    (nr, nc) not in visited and
-                    heights[nr][nc] >= heights[r][c]   # reverse flow condition
-                ):
-                    dfs(nr, nc, visited)
+        # find ones to pacific
+        for i in range(cols):
+            dfs(0, i, to_pacific_cells)
+        for i in range(rows):
+            dfs(i, 0, to_pacific_cells)
 
-        # Pacific: top row + left column
-        for c in range(cols):
-            dfs(0, c, pacific)
-        for r in range(rows):
-            dfs(r, 0, pacific)
+        # find ones to atlantic
+        for i in range(cols):
+            dfs(rows-1, i, to_atlantic_cells)
+        for i in range(rows):
+            dfs(i, cols-1, to_atlantic_cells)
 
-        # Atlantic: bottom row + right column
-        for c in range(cols):
-            dfs(rows - 1, c, atlantic)
-        for r in range(rows):
-            dfs(r, cols - 1, atlantic)
+        to_both_cells = to_pacific_cells & to_atlantic_cells
+        # print(to_both_cells)
 
-        # intersection
-        return list(pacific & atlantic)      
+        ans = []
+        for (i,j) in to_both_cells:
+            ans.append([i, j])
+        return ans
