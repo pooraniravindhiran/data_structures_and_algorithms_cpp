@@ -1,5 +1,5 @@
-# TC- O(n)
-# SC- O(n)
+# TC- O(n+mlogk)
+# SC- O(m+k)
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
