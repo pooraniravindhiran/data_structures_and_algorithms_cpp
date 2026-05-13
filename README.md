@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
 | [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
+| [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
@@ -241,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0155-min-stack/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
 | [0359-logger-rate-limiter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0359-logger-rate-limiter/) | Easy |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
@@ -393,6 +395,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 | [0359-logger-rate-limiter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0359-logger-rate-limiter/) | Easy |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
 ## Sliding Window
@@ -436,6 +439,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 ## Monotonic Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
