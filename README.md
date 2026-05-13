@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
@@ -222,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0206-reverse-linked-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0206-reverse-linked-list/) | Easy |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
+| [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -235,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
+| [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 ## Design
 | Problem Name | Difficulty |
@@ -247,12 +250,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0359-logger-rate-limiter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0359-logger-rate-limiter/) | Easy |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
 ## Doubly-Linked List
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0146-lru-cache/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
+| [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 ## Ordered Set
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -397,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 | [0359-logger-rate-limiter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0359-logger-rate-limiter/) | Easy |
+| [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
