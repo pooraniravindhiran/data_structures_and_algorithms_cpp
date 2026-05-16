@@ -1,5 +1,5 @@
-# TC- O(m+n)
-# SC- O(1) 
+# TC- O(min(m,n))
+# SC- O(1)
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -8,11 +8,11 @@
 #         self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        dummy = ListNode()
+        dummy = ListNode(0)
         curr = dummy
-        while(list1 and list2):
 
-            if list1.val <= list2.val:
+        while(list1 and list2):
+            if(list1.val<=list2.val):
                 curr.next = list1
                 curr = curr.next
                 list1 = list1.next
@@ -21,10 +21,10 @@ class Solution:
                 curr = curr.next
                 list2 = list2.next
 
-        if(list1):
+        if list1:
             curr.next = list1
-         
+        
         if list2:
             curr.next = list2
-
+        
         return dummy.next
