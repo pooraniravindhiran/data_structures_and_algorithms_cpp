@@ -1,28 +1,34 @@
-# SC- O(n) where n is num_pts added already
+# TC- O(1) for add and O(k) for count
+# SC- O(k) where k is num of unique pts
 
 class DetectSquares:
 
     def __init__(self):
-        self.counter = defaultdict(int)
+        # allow duplicates
+        # frequency lookup O(1)
+        # dict is good so far
+        self.points = defaultdict(int)
 
     def add(self, point: List[int]) -> None:
-        # TC- O(1)
         x, y = point
-        self.counter[(x,y)] +=1
+        self.points[(x,y)] += 1
 
     def count(self, point: List[int]) -> int:
-        # TC- O(n)
         x, y = point
-        res = 0
-        
-        for (px,py), cnt in list(self.counter.items()):
-            
-            # if not diagonal, proceed
-            if(px==x or py==y or abs(px-x)!=abs(py-y)):
+        total_count = 0
+
+        for curr_point, freq in self.points.items():
+            curr_x, curr_y = curr_point
+
+            # check its diagonal and other 2 points
+            if curr_x==x and curr_y==y:
                 continue
+            if abs(curr_x-x)==abs(curr_y-y) and (curr_x, y) in self.points and (x, curr_y) in self.points:
+                # print(total_count, curr_point)
+                total_count += self.points[(curr_x, y)]*self.points[(x, curr_y)]*self.points[(curr_x, curr_y)]
             
-            res += (cnt * self.counter[(x, py)] * self.counter[(px, y)])
-        return res
+        return total_count
+
 
 
 # Your DetectSquares object will be instantiated and called as such:
