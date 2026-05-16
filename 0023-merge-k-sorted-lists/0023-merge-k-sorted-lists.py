@@ -1,4 +1,4 @@
-# TC- O(Nlogk)
+# TC- O(nlogk)
 # SC- O(k)
 
 # Definition for singly-linked list.
@@ -8,23 +8,21 @@
 #         self.next = next
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        min_heap = []
-        
-        # initialize heap with first element of each list
-        for i, node in enumerate(lists):
-            if node:
-                min_heap.append((node.val, i, node)) # adding i so that heap comparison can use this if vals are equal
-        heapq.heapify(min_heap)
-
         dummy = ListNode()
         curr = dummy
+        min_heap = []
+
+        for idx, l in enumerate(lists):
+            if l:
+                # If values tie, i avoids comparing ListNode objects directly (which causes error in Python).
+                heapq.heappush(min_heap, (l.val, idx, l))
         
         while min_heap:
-            val, i, node = heapq.heappop(min_heap)
-            curr.next = node
+            min_elem, idx, l = heapq.heappop(min_heap)
+            curr.next = l
             curr = curr.next
-            lists[i] = lists[i].next
-            if(lists[i]):
-                heapq.heappush(min_heap, (lists[i].val, i, lists[i]))
-
+            l = l.next
+            if l:
+                heapq.heappush(min_heap, (l.val, idx, l))
+        
         return dummy.next
