@@ -7,24 +7,26 @@ class DetectSquares:
         # allow duplicates
         # frequency lookup O(1)
         # dict is good so far
-        self.points = defaultdict(int)
+        self.points = {}
 
     def add(self, point: List[int]) -> None:
         x, y = point
-        self.points[(x,y)] += 1
+        if (x, y) in self.points:
+            self.points[(x,y)] += 1
+        else:
+            self.points[(x, y)] = 1
 
     def count(self, point: List[int]) -> int:
         x, y = point
         total_count = 0
 
-        for curr_point, freq in self.points.items():
+        for curr_point in self.points.keys():
             curr_x, curr_y = curr_point
 
             # check its diagonal and other 2 points
-            if curr_x==x and curr_y==y:
+            if curr_x==x or curr_y==y or abs(curr_x-x)!=abs(curr_y-y):
                 continue
-            if abs(curr_x-x)==abs(curr_y-y) and (curr_x, y) in self.points and (x, curr_y) in self.points:
-                # print(total_count, curr_point)
+            if (curr_x, y) in self.points and (x, curr_y) in self.points:
                 total_count += self.points[(curr_x, y)]*self.points[(x, curr_y)]*self.points[(curr_x, curr_y)]
             
         return total_count
