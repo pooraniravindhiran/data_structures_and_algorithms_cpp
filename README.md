@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0128-longest-consecutive-sequence/) | Medium |
+| [0149-max-points-on-a-line](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0162-find-peak-element](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0162-find-peak-element/) | Medium |
@@ -132,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0133-clone-graph/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0146-lru-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0146-lru-cache/) | Medium |
+| [0149-max-points-on-a-line](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0160-intersection-of-two-linked-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
@@ -400,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0002-add-two-numbers/) | Medium |
 | [0007-reverse-integer](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0007-reverse-integer/) | Medium |
 | [0048-rotate-image](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0048-rotate-image/) | Medium |
+| [0149-max-points-on-a-line](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0371-sum-of-two-integers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0371-sum-of-two-integers/) | Medium |
@@ -411,6 +414,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0149-max-points-on-a-line](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Data Stream
