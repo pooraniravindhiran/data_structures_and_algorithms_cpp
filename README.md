@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -185,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -208,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
+| [1091-shortest-path-in-binary-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1975-maximum-matrix-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1975-maximum-matrix-sum/) | Medium |
 ## Linked List
