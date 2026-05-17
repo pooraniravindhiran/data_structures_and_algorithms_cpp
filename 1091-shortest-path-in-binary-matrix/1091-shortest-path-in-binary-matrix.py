@@ -1,5 +1,5 @@
-# TC-
-# SC-
+# TC- O(n^2)
+# SC- O(n^2)
 
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
