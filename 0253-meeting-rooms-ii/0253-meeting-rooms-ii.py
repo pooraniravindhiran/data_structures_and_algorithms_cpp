@@ -5,7 +5,7 @@ class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         
         # sort by start
-        # while start>=top of heap, pop 
+        # if start>=top of heap, pop 
         # add it to heap
         # len of heap
 
@@ -13,7 +13,7 @@ class Solution:
         intervals.sort()
 
         for interval in intervals:
-            if min_heap and interval[0]>=min_heap[0]:
+            if min_heap and interval[0]>=min_heap[0]: # if because one new meeting can use only one new room
                 heapq.heappop(min_heap)
 
             heapq.heappush(min_heap, interval[1])
