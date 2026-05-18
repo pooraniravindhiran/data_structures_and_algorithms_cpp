@@ -1,3 +1,6 @@
+# TC- O(mn)
+# SC- O(mn)
+
 class Solution:
     def solve(self, board: List[List[str]]) -> None:
         """
@@ -13,7 +16,6 @@ class Solution:
                 next_r = r+dirs[d]
                 next_c = c+dirs[d+1]
                 if 0<=next_r<rows and 0<=next_c<cols and board[next_r][next_c]=="O":
-                    # board[r][c] = "I"
                     dfs(next_r, next_c)
 
         for i in range(cols):
