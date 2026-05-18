@@ -194,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0542-01-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0542-01-matrix/) | Medium |
+| [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
@@ -327,6 +328,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0261-graph-valid-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
+| [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 ## Binary Search Tree
@@ -456,6 +458,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
 | [0261-graph-valid-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
+| [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
@@ -507,6 +510,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0210-course-schedule-ii/) | Medium |
 | [0261-graph-valid-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
+| [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 ## Randomized
 | Problem Name | Difficulty |
