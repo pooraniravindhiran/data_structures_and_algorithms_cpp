@@ -6,7 +6,7 @@ class Solution:
         # the problem can be formulated into a directed graph and we need to ultimately find if there's a cycle or not
         adj_mat = defaultdict(list)
         for prereq in prerequisites:
-            adj_mat[prereq[0]].append(prereq[1])
+            adj_mat[prereq[1]].append(prereq[0])
         
         state = [0]*numCourses # 0 = unvisited, 1 = visiting, 2 = done
 
@@ -29,4 +29,4 @@ class Solution:
             if state[n]==0:
                 if has_cycle(n):
                     return []
-        return order
+        return order[::-1]
