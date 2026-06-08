@@ -2,14 +2,24 @@
 # SC- O(n)
 
 class Solution:
-    def dailyTemperatures(self, temperatures: List[int]) -> List[int]: 
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+        
+        # monotonic stack of decreasing temperatures. once you get a warmer temperature, pop and update all. 
+        # WHAT HAPPENS IN THE END?
+        # WHY STACK PATTERN?
+
         stack = []
-        ans = [0]*len(temperatures)
+        n = len(temperatures)
+        ans = [0]*n
 
-        for day, temp in enumerate(temperatures):
-            while(stack and temp>temperatures[stack[-1]]):
-                cooler_day = stack.pop()
-                ans[cooler_day]= day-cooler_day
-            stack.append(day)
-
+        for i in range(n):
+            curr_temp = temperatures[i]
+            
+            while(stack and curr_temp>temperatures[stack[-1]]):
+                ans[stack[-1]] = i-stack[-1]
+                stack.pop()
+            stack.append(i)
+        
         return ans
+
+        
