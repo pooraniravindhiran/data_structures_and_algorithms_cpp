@@ -117,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
 | [0071-simplify-path](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0071-simplify-path/) | Medium |
 | [0076-minimum-window-substring](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0076-minimum-window-substring/) | Hard |
+| [0394-decode-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0394-decode-string/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0567-permutation-in-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0567-permutation-in-string/) | Medium |
@@ -261,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0155-min-stack/) | Medium |
+| [0394-decode-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0394-decode-string/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
@@ -315,6 +317,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0024-swap-nodes-in-pairs](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0024-swap-nodes-in-pairs/) | Medium |
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
 | [0206-reverse-linked-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0206-reverse-linked-list/) | Easy |
+| [0394-decode-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0394-decode-string/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
