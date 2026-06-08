@@ -5,8 +5,6 @@ class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         
         # monotonic stack of decreasing temperatures. once you get a warmer temperature, pop and update all. 
-        # WHAT HAPPENS IN THE END?
-        # WHY STACK PATTERN?
 
         stack = []
         n = len(temperatures)
