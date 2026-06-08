@@ -4,32 +4,40 @@
 class Solution:
     def searchRange(self, nums: List[int], target: int) -> List[int]:
 
-        def find_leftmost_occ():
+        def leftmost_occ():
             left, right = 0, len(nums)-1
             ans = -1
-            while left<=right:
-                mid = left+ (right-left)//2
-                if nums[mid]==target:
+            while(left<=right):
+                mid = left+(right-left)//2
+
+                if target==nums[mid]:
                     ans = mid
                     right = mid-1
-                elif nums[mid]<target:
-                    left = mid+1
-                else:
+                
+                elif target<nums[mid]:
                     right = mid-1
-            return ans
+                
+                else:
+                    left = mid+1
 
-        def find_rightmost_occ():
+            return ans
+        
+        def rightmost_occ():
             left, right = 0, len(nums)-1
             ans = -1
-            while left<=right:
-                mid = left+ (right-left)//2
-                if nums[mid]==target:
+            while(left<=right):
+                mid = left+(right-left)//2
+
+                if target==nums[mid]:
                     ans = mid
                     left = mid+1
-                elif nums[mid]<target:
-                    left = mid+1
-                else:
+                
+                elif target<nums[mid]:
                     right = mid-1
-            return ans
+                
+                else:
+                    left = mid+1
 
-        return [find_leftmost_occ(), find_rightmost_occ()]
+            return ans
+        
+        return [leftmost_occ(), rightmost_occ()]
