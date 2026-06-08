@@ -1,23 +1,28 @@
-# TC- O(log(mn))
+# TC- O(logmn)
 # SC- O(1)
 
 class Solution:
     def searchMatrix(self, matrix: List[List[int]], target: int) -> bool:
-        # binary search through all elements
-        rows, cols = len(matrix), len(matrix[0])
-        high = (rows*cols)-1
-        low = 0
 
-        while(low<=high):
-            mid = low + (high-low)//2
-            r = mid//cols
-            c = mid%cols
-            if target==matrix[r][c]:
+        # matrix if read in row major order is already sorted, so binary search
+
+        m, n = len(matrix), len(matrix[0])
+        left, right = 0, m*n-1
+
+        while(left<=right):
+            
+            mid = left + (right-left)//2
+            r = mid // n
+            c = mid % n
+
+            if matrix[r][c]==target:
                 return True
+            
             elif target<matrix[r][c]:
-                high = mid-1
-            elif target>matrix[r][c]:
-                low = mid+1
+                right = mid-1
 
-        return False
+            else:
+                left = mid+1
         
+        return False
+            
