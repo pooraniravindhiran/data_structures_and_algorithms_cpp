@@ -1,27 +1,40 @@
 # TC- O(n)
-# SC- O(1)
+# SC- O(n)
 
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
-        # create freq map
-        cnts = Counter(tasks)
-
-        # greedy approach- picking the task with highest freq helps reduce idle time
-        # put the frequencies into a max_heap- doesn't matter which task
-        max_heap = [-cnt for cnt in cnts.values()]
-        heapq.heapify(max_heap)
-
-        time = 0
-        tasks_backto_heap = deque()
-        while(max_heap or tasks_backto_heap):
-            time += 1
-
-            if(max_heap):
-                cnt = 1+ heapq.heappop(max_heap)
-                if cnt:
-                    tasks_backto_heap.append([cnt, time+n])
-            
-            if(tasks_backto_heap and tasks_backto_heap[0][1]==time):
-                heapq.heappush(max_heap, tasks_backto_heap.popleft()[0])
         
-        return time
+        # min num of intervals mean you pick the most frequent task
+        # freq map needed, priority for freq so heap needed, deque needed
+
+        counter = Counter(tasks)
+
+        max_heap = []
+        for task, cnt in counter.items():
+            heapq.heappush(max_heap, -cnt)
+        print(max_heap)
+        
+        ans = 0
+        waiting = deque()
+        while max_heap or waiting:
+            ans += 1
+
+            while(waiting and waiting[0][1]==ans):
+                print(waiting[0])
+                freq, _ = waiting.popleft()
+                heapq.heappush(max_heap, -freq)
+
+            if max_heap:
+                print("heap", max_heap[0])
+                freq = -1*heapq.heappop(max_heap)
+                freq -= 1
+                if freq>0:
+                    waiting.append((freq, ans+n+1))
+                
+        return ans
+            
+
+            
+            
+
+                
