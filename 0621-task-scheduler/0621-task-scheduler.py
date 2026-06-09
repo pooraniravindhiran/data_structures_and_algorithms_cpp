@@ -12,7 +12,7 @@ class Solution:
         max_heap = []
         for task, cnt in counter.items():
             heapq.heappush(max_heap, -cnt)
-        print(max_heap)
+        # print(max_heap)
         
         ans = 0
         waiting = deque()
@@ -20,12 +20,12 @@ class Solution:
             ans += 1
 
             if(waiting and waiting[0][1]==ans):
-                print(waiting[0])
+                # print(waiting[0])
                 freq, _ = waiting.popleft()
                 heapq.heappush(max_heap, -freq)
 
             if max_heap:
-                print("heap", max_heap[0])
+                # print("heap", max_heap[0])
                 freq = -1*heapq.heappop(max_heap)
                 freq -= 1
                 if freq>0:
