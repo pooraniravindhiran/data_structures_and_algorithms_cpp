@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0362-design-hit-counter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0362-design-hit-counter/) | Medium |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
@@ -391,6 +392,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
+| [0373-find-k-pairs-with-smallest-sums](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
