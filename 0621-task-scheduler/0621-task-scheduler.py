@@ -1,5 +1,5 @@
-# TC- O(n)
-# SC- O(n)
+# TC- O(mlogk)= O(mlog26)= O(m) where m is len(tasks) and k is distinct num of tasks
+# SC- O(k)= O(26)= O(1)
 
 class Solution:
     def leastInterval(self, tasks: List[str], n: int) -> int:
@@ -19,7 +19,7 @@ class Solution:
         while max_heap or waiting:
             ans += 1
 
-            while(waiting and waiting[0][1]==ans):
+            if(waiting and waiting[0][1]==ans):
                 print(waiting[0])
                 freq, _ = waiting.popleft()
                 heapq.heappush(max_heap, -freq)
