@@ -268,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
 | [0155-min-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0155-min-stack/) | Medium |
+| [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0394-decode-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0394-decode-string/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
@@ -281,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0155-min-stack/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
 | [0359-logger-rate-limiter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0359-logger-rate-limiter/) | Easy |
@@ -329,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0098-validate-binary-search-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
+| [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -341,6 +344,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0261-graph-valid-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
+| [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
@@ -507,6 +511,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 | [0362-design-hit-counter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0362-design-hit-counter/) | Medium |
 ## Monotonic Queue
@@ -555,4 +560,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+## Iterator
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 <!---LeetCode Topics End-->
