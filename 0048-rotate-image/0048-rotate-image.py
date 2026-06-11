@@ -1,5 +1,7 @@
-class Solution:
+# TC- O(n^2)
+# SC- O(1)
 
+class Solution:
     def transpose(self, matrix) -> None:
         for r in range(self.n):
             for c in range(r+1, self.n):
