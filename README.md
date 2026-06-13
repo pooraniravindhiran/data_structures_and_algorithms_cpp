@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0497-random-point-in-non-overlapping-rectangles](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0497-random-point-in-non-overlapping-rectangles/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0528-random-pick-with-weight/) | Medium |
 | [0542-01-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0542-01-matrix/) | Medium |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
@@ -184,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
