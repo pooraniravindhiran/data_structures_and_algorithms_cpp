@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0496-next-greater-element-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0496-next-greater-element-i/) | Easy |
 | [0497-random-point-in-non-overlapping-rectangles](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0497-random-point-in-non-overlapping-rectangles/) | Medium |
+| [0503-next-greater-element-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0528-random-pick-with-weight/) | Medium |
 | [0542-01-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0542-01-matrix/) | Medium |
 | [0566-reshape-the-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0566-reshape-the-matrix/) | Easy |
@@ -285,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0394-decode-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0394-decode-string/) | Medium |
 | [0402-remove-k-digits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0496-next-greater-element-i/) | Easy |
+| [0503-next-greater-element-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
@@ -515,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0085-maximal-rectangle/) | Hard |
 | [0402-remove-k-digits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0402-remove-k-digits/) | Medium |
 | [0496-next-greater-element-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0496-next-greater-element-i/) | Easy |
+| [0503-next-greater-element-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 ## Merge Sort
