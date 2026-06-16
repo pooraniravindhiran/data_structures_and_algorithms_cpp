@@ -3,21 +3,13 @@
 
 class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-        
-        # monotonic stack of decreasing temperatures. once you get a warmer temperature, pop and update all. 
-
         stack = []
-        n = len(temperatures)
-        ans = [0]*n
-
-        for i in range(n):
-            curr_temp = temperatures[i]
-            
-            while(stack and curr_temp>temperatures[stack[-1]]):
-                ans[stack[-1]] = i-stack[-1]
-                stack.pop()
+        ans = [0]*len(temperatures)
+        for i, temp in enumerate(temperatures):
+            while(stack and temperatures[stack[-1]]<temp):
+                j = stack.pop()
+                ans[j] = i-j
             stack.append(i)
-        
         return ans
 
-        
+            
