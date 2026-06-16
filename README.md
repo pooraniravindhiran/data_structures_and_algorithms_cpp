@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
+| [0953-verifying-an-alien-dictionary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [0986-interval-list-intersections](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0986-interval-list-intersections/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0567-permutation-in-string/) | Medium |
 | [0609-find-duplicate-file-in-system](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0609-find-duplicate-file-in-system/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
+| [0953-verifying-an-alien-dictionary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 ## Trie
@@ -167,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
+| [0953-verifying-an-alien-dictionary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
