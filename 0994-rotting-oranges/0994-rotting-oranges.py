@@ -18,25 +18,24 @@ class Solution:
         # print(fresh)
 
         min_time = 0
-        while q:
+        while q and fresh>0:
             q_size = len(q)
             anything_rotted = False
             for i in range(q_size):
                 r, c = q.popleft()
-                grid[r][c] = 0 #mark as visited
 
                 for d in range(len(dirs)-1):
                     next_r, next_c = r+dirs[d], c+dirs[d+1]
                     if 0<=next_r<m and 0<=next_c<n and grid[next_r][next_c]==1:
                         fresh -= 1
-                        grid[next_r][next_c] = 0
+                        grid[next_r][next_c] = 2
                         anything_rotted = True
                         q.append((next_r, next_c))
             if anything_rotted:
                 min_time += 1
 
         # print(fresh)
-        if fresh!=0:
+        if fresh>0:
             return -1
         
         return min_time
