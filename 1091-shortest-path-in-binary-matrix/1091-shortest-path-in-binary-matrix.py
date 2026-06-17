@@ -14,6 +14,7 @@ class Solution:
         def bfs(src, dst):
             q = deque()
             q.append((src, 1))
+            grid[0][0] = 1
 
             while q:
                 (r, c), dist = q.popleft()
