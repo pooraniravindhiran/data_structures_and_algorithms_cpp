@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
+| [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
@@ -138,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0438-find-all-anagrams-in-a-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
 | [0567-permutation-in-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0567-permutation-in-string/) | Medium |
 | [0609-find-duplicate-file-in-system](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0609-find-duplicate-file-in-system/) | Medium |
+| [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [0953-verifying-an-alien-dictionary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0609-find-duplicate-file-in-system](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0609-find-duplicate-file-in-system/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
@@ -201,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
+| [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
@@ -226,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
+| [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
@@ -374,6 +379,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
+| [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 ## Binary Search Tree
@@ -513,6 +519,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0695-max-area-of-island](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0695-max-area-of-island/) | Medium |
+| [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
