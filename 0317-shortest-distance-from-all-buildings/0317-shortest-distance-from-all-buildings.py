@@ -1,46 +1,50 @@
-# TC- O(mn*mn)
+
+# TC- O((mn)^2)
 # SC- O(mn)
 
 class Solution:
     def shortestDistance(self, grid: List[List[int]]) -> int:
-        m, n = len(grid), len(grid[0])
-        dist = [[0]*n for _ in range(m)]
-        num_reachable = [[0]*n for _ in range(m)]
-        num_buildings = 0
+        # BFS, num of buildings reachable from each land, total dist to reach all buildings that are reachable from each land
+        # Need to do BFS, but that can happen sequentially/in parallel and from building/empty land. In general, num_buildings << num_emptylands. So doing BFS from buildings is better. Moreover, if we do BFS from each empty land, then there are more repetitive calculations too. Unlike wallsandgates problem where we need to find the nearest dist, we need to find the total dist here- so we do BFS sequentially from each building.
+        
+        rows, cols = len(grid), len(grid[0])
+        num_reachable = [[0]*cols for _ in range(rows)]
+        dist = [[0]*cols for _ in range(rows)]
 
-        def bfs(i, j):
-            visited = [[False]*n for _ in range(m)]
+        def bfs(r, c):
+            visited = [[0]*cols for _ in range(rows)]
             q = deque()
-            q.append((i, j, 0))
-            visited[i][j]=True
-            dirs = [-1,0,1,0,-1]
+            q.append((r, c, 0))
+            dirs = [-1, 0, 1, 0, -1]
+        
             while q:
-                r, c, level = q.popleft()
-
+                curr_r, curr_c, level = q.popleft()
                 for d in range(len(dirs)-1):
-                    next_r = r+dirs[d]
-                    next_c = c+dirs[d+1]
-
-                    if 0<=next_r<m and 0<=next_c<n and grid[next_r][next_c]==0 and visited[next_r][next_c]==False:
-                        visited[next_r][next_c]=True
+                    next_r = curr_r+dirs[d]
+                    next_c = curr_c+dirs[d+1]
+                    if 0<=next_r<rows and 0<=next_c<cols and visited[next_r][next_c]==False and grid[next_r][next_c]==0:
+                        visited[next_r][next_c] = True
                         dist[next_r][next_c] += level+1
+                        num_reachable[next_r][next_c] += 1
                         q.append((next_r, next_c, level+1))
-                        num_reachable[next_r][next_c] +=1
 
-        for i in range(m):
-            for j in range(n):
+        # start bfs from every building
+        total_buildings = 0
+        for i in range(rows):
+            for j in range(cols):
                 if grid[i][j]==1:
-                    num_buildings += 1
+                    total_buildings += 1
                     bfs(i, j)
-        
-        shortest_dist = float('inf')
-        for i in range(m):
-            for j in range(n):
-                if num_reachable[i][j]==num_buildings:
-                    shortest_dist = min(shortest_dist, dist[i][j])
-        
-        return -1 if shortest_dist==float('inf') else shortest_dist
 
+        # check 
+        shortest_total_dist = float('inf')
+        for i in range(rows):
+            for j in range(cols):
+                if num_reachable[i][j] == total_buildings:
+                    shortest_total_dist = min(shortest_total_dist, dist[i][j])
 
-
-                    
+        if shortest_total_dist == float('inf'):
+            return -1
+        else:
+            return shortest_total_dist
+      
