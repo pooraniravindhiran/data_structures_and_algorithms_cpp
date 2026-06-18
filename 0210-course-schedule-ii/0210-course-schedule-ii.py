@@ -1,32 +1,31 @@
-# TC- O(v+e)
-# SC- O(v+e)
+# TC- O(p+n)
+# SC- O(p+n)
 
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        # the problem can be formulated into a directed graph and we need to ultimately find if there's a cycle or not
         adj_mat = defaultdict(list)
         for prereq in prerequisites:
             adj_mat[prereq[1]].append(prereq[0])
         
-        state = [0]*numCourses # 0 = unvisited, 1 = visiting, 2 = done
-
+        state= [0]*numCourses
         order = []
-        def has_cycle(n):
-            if state[n]==2:
+        
+        def has_cycle(i):
+            if state[i]==2:
                 return False
-            elif state[n]==1:
+            if state[i]==1:
                 return True
-            
-            state[n]=1
-            for neigh in adj_mat[n]:
-                if has_cycle(neigh):
+
+            state[i]=1
+            for c in adj_mat[i]:
+                if has_cycle(c):
                     return True
-            order.append(n)
-            state[n]=2
+            state[i]=2
+            order.append(i)
             return False
 
-        for n in range(numCourses):
-            if state[n]==0:
-                if has_cycle(n):
+        for i in range(numCourses):
+            if state[i]==0:
+                if has_cycle(i):
                     return []
         return order[::-1]
