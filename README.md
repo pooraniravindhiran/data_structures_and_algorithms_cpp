@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0045-jump-game-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0055-jump-game/) | Medium |
+| [0062-unique-paths](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0062-unique-paths/) | Medium |
 | [0085-maximal-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0085-maximal-rectangle/) | Hard |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
@@ -473,6 +474,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0002-add-two-numbers/) | Medium |
 | [0007-reverse-integer](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0007-reverse-integer/) | Medium |
 | [0048-rotate-image](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0048-rotate-image/) | Medium |
+| [0062-unique-paths](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0062-unique-paths/) | Medium |
 | [0066-plus-one](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0066-plus-one/) | Easy |
 | [0149-max-points-on-a-line](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0150-evaluate-reverse-polish-notation](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0150-evaluate-reverse-polish-notation/) | Medium |
@@ -605,4 +607,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
+## Combinatorics
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0062-unique-paths](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0062-unique-paths/) | Medium |
 <!---LeetCode Topics End-->
