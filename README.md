@@ -418,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0023-merge-k-sorted-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0191-number-of-1-bits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0191-number-of-1-bits/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0240-search-a-2d-matrix-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -566,6 +567,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0191-number-of-1-bits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0191-number-of-1-bits/) | Easy |
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0371-sum-of-two-integers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0371-sum-of-two-integers/) | Medium |
 ## Graph Theory
