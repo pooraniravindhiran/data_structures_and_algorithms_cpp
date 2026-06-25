@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0198-house-robber](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0198-house-robber/) | Medium |
+| [0338-counting-bits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0338-counting-bits/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0542-01-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0542-01-matrix/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -569,6 +570,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0191-number-of-1-bits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0191-number-of-1-bits/) | Easy |
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
+| [0338-counting-bits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0338-counting-bits/) | Easy |
 | [0371-sum-of-two-integers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0371-sum-of-two-integers/) | Medium |
 ## Graph Theory
 | Problem Name | Difficulty |
