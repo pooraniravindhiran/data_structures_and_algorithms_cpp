@@ -4,7 +4,7 @@
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
         
-        intervals.sort()
+        intervals.sort() # because sorting by end time can make process a shorter late meeting to be processed before a longer meeting that started earlier, which break real world timeline
         min_heap = [] # heap stores end times of all active meetings
         max_rooms = 0
         for interval in intervals:
