@@ -11,18 +11,16 @@ class Solution:
         dummy = ListNode()
         curr = dummy
         min_heap = []
-
         for idx, l in enumerate(lists):
-            if l:
-                # If values tie, i avoids comparing ListNode objects directly (which causes error in Python).
+            if l: 
                 heapq.heappush(min_heap, (l.val, idx, l))
         
         while min_heap:
-            min_elem, idx, l = heapq.heappop(min_heap)
-            curr.next = l
-            curr = curr.next
-            l = l.next
-            if l:
-                heapq.heappush(min_heap, (l.val, idx, l))
+            _, idx, top_list = heapq.heappop(min_heap)
+            curr.next = top_list
+            curr = top_list
+            if top_list.next:
+                heapq.heappush(min_heap, (top_list.next.val, idx, top_list.next))
         
         return dummy.next
+        
