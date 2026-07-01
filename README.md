@@ -80,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1288-remove-covered-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
@@ -185,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
 | [0953-verifying-an-alien-dictionary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2121-intervals-between-identical-elements/) | Medium |
@@ -319,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0362-design-hit-counter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0362-design-hit-counter/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [2013-detect-squares](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2013-detect-squares/) | Medium |
 ## Doubly-Linked List
@@ -406,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-koko-eating-bananas](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
