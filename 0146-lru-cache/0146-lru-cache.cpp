@@ -1,45 +1,48 @@
-// SC - O(capacity)
+// SC- O(k)
 
 class LRUCache {
-private:
-    int capacity;
-
-    // need track of MRU to LRU, and to update it in O(1). so double ended linked list. it should contain key and value 
-    list<pair<int,int>> dq;
-
-        // need to be able to lookup in list at O(1). so use unordered map to store key and list iterator
-    unordered_map<int, list<pair<int,int>>::iterator> map;
-
 public:
+    int capacity = 0;
+    list<pair<int,int>> dll;
+    unordered_map<int, list<pair<int,int>>::iterator> mp;
+
     LRUCache(int capacity) {
         this->capacity = capacity;
     }
     
     int get(int key) {
         // TC- O(1)
-        if(map.count(key)==0)
+        if(mp.find(key)==mp.end())
             return -1;
-        auto it = map[key];
-        dq.splice(dq.begin(), dq, it);
-        return it->second;
+        
+        // update cache and return value
+        auto it = mp[key];
+        dll.splice(dll.begin(), dll, it);
+        return dll.front().second;
     }
     
     void put(int key, int value) {
         // TC- O(1)
-        if(map.count(key)==0){
-            if(map.size()==capacity){
-                // remove least used item
-                map.erase(dq.back().first);
-                dq.pop_back();
-            }
-            dq.push_front(make_pair(key, value));
-            map[key] = dq.begin();
-        }
-        else{
-            auto it = map[key];
-            dq.splice(dq.begin(), dq, it);
+        // if key there
+        if(mp.find(key)!=mp.end()){
+            // update map
+            auto it = mp[key];
             it->second = value;
+
+            // update cache
+            dll.splice(dll.begin(), dll, it);
+            return;
         }
+
+        // if cache full
+        if(dll.size()==capacity){
+            auto lru = dll.back();
+            mp.erase(lru.first);
+            dll.pop_back();
+        }
+        // if there
+        dll.push_front({key, value});
+        mp[key] = dll.begin();
     }
 };
 
