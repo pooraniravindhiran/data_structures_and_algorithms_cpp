@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0609-find-duplicate-file-in-system](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0609-find-duplicate-file-in-system/) | Medium |
 | [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
+| [0772-basic-calculator-iii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0772-basic-calculator-iii/) | Hard |
 | [0953-verifying-an-alien-dictionary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
@@ -308,6 +309,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
+| [0772-basic-calculator-iii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0772-basic-calculator-iii/) | Hard |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
@@ -366,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0206-reverse-linked-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0206-reverse-linked-list/) | Easy |
 | [0224-basic-calculator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0224-basic-calculator/) | Hard |
 | [0394-decode-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0394-decode-string/) | Medium |
+| [0772-basic-calculator-iii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0772-basic-calculator-iii/) | Hard |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -497,6 +500,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0371-sum-of-two-integers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0371-sum-of-two-integers/) | Medium |
 | [0497-random-point-in-non-overlapping-rectangles](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0497-random-point-in-non-overlapping-rectangles/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0528-random-pick-with-weight/) | Medium |
+| [0772-basic-calculator-iii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0772-basic-calculator-iii/) | Hard |
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
