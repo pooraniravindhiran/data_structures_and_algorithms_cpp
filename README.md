@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
+| [1233-remove-sub-folders-from-the-filesystem](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1233-remove-sub-folders-from-the-filesystem/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1288-remove-covered-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
@@ -149,11 +150,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-basic-calculator-iii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0772-basic-calculator-iii/) | Hard |
 | [0953-verifying-an-alien-dictionary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
+| [1233-remove-sub-folders-from-the-filesystem](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1233-remove-sub-folders-from-the-filesystem/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0014-longest-common-prefix/) | Easy |
+| [1233-remove-sub-folders-from-the-filesystem](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1233-remove-sub-folders-from-the-filesystem/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -395,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0743-network-delay-time](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
+| [1233-remove-sub-folders-from-the-filesystem](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1233-remove-sub-folders-from-the-filesystem/) | Medium |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
