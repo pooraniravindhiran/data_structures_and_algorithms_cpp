@@ -181,6 +181,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0359-logger-rate-limiter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0359-logger-rate-limiter/) | Easy |
 | [0424-longest-repeating-character-replacement](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
 | [0438-find-all-anagrams-in-a-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0438-find-all-anagrams-in-a-string/) | Medium |
+| [0460-lfu-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0460-lfu-cache/) | Hard |
 | [0496-next-greater-element-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0496-next-greater-element-i/) | Easy |
 | [0567-permutation-in-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0567-permutation-in-string/) | Medium |
 | [0609-find-duplicate-file-in-system](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0609-find-duplicate-file-in-system/) | Medium |
@@ -291,6 +292,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0160-intersection-of-two-linked-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0206-reverse-linked-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0206-reverse-linked-list/) | Easy |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
+| [0460-lfu-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0460-lfu-cache/) | Hard |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 ## Stack
@@ -328,6 +330,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
 | [0359-logger-rate-limiter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0359-logger-rate-limiter/) | Easy |
 | [0362-design-hit-counter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0362-design-hit-counter/) | Medium |
+| [0460-lfu-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0460-lfu-cache/) | Hard |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
@@ -337,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0146-lru-cache/) | Medium |
+| [0460-lfu-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0460-lfu-cache/) | Hard |
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 ## Ordered Set
