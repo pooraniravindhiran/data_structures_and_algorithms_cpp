@@ -1,25 +1,25 @@
 // TC- O(min(m, n))
-// SC-
+// SC- O(1)
 
 class Solution {
 public:
     vector<vector<int>> intervalIntersection(vector<vector<int>>& firstList, vector<vector<int>>& secondList) {
-        vector<vector<int>> ans;
-
+        vector<vector<int>> res;
         int i = 0;
         int j = 0;
-
         while(i<firstList.size() and j<secondList.size()){
-            int start = max(firstList[i][0], secondList[j][0]);
-            int end = min(firstList[i][1], secondList[j][1]);
-            if (start<=end)
-                ans.push_back({start, end});
+            
+            int lb = max(firstList[i][0], secondList[j][0]);
+            int ub = min(firstList[i][1], secondList[j][1]);
+            if(lb<=ub)
+                res.push_back({lb, ub});
 
-            if (firstList[i][1]<secondList[j][1])
-                i += 1;
-            else if (firstList[i][1]>=secondList[j][1])
-                j += 1;
+            if(secondList[j][1]>firstList[i][1])
+                i++;
+            else 
+                j++;
+
         }
-        return ans;
+        return res;
     }
 };
