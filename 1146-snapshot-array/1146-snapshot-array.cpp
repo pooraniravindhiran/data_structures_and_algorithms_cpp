@@ -1,48 +1,43 @@
-// SC- O(l*s)
+// SC- O(s*l)
 
 class SnapshotArray {
 public:
-    int snapId;
-    vector<vector<pair<int, int>>> records;
+    vector<vector<pair<int, int>>> snapshots;
+    int snap_id;
 
     SnapshotArray(int length) {
-        snapId = 0;
-        records.resize(length);
-        for(int i=0; i<length; i++){
-            records[i].push_back({0, 0});
-        }
+        snap_id = 0;
+        snapshots.resize(length);
+        for(int i=0; i<length; i++)
+            snapshots[i].push_back({snap_id, 0});
     }
     
     void set(int index, int val) {
         // TC- O(1)
-        if(records[index].back().first==snapId)
-            records[index].back().second = val;
+        int curr_snap = snapshots[index].back().first;
+        if(curr_snap==snap_id)
+            snapshots[index].back().second = val;
         else
-            records[index].emplace_back(snapId, val);
+            snapshots[index].push_back({snap_id, val});
     }
     
     int snap() {
         // TC- O(1)
-        return snapId++;
+        return snap_id++;
     }
     
     int get(int index, int snap_id) {
-        // TC- O(logl)
-        // find rightmost occ
-        auto & l = records[index];
-        int left =0;
-        int right = l.size()-1;
-        int ans = 0;
-        while(left<=right){
-            int mid = left + (right-left)/2;
-            if (l[mid].first>snap_id)
+        // TC- O(log s)
+        auto & curr_idx = snapshots[index];
+        int left = 0, right = curr_idx.size()-1;
+        while(left<right){
+            int mid = left+(right-left+1)/2;
+            if(curr_idx[mid].first>snap_id)
                 right = mid-1;
-            else{
-                ans = mid;
-                left = mid+1;
-            }
+            else
+                left = mid;
         }
-        return l[ans].second;
+        return curr_idx[left].second;
     }
 };
 
