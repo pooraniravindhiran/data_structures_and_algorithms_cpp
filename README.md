@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0085-maximal-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0085-maximal-rectangle/) | Hard |
+| [0088-merge-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0088-merge-sorted-array/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0121-best-time-to-buy-and-sell-stock/) | Easy |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0128-longest-consecutive-sequence](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0128-longest-consecutive-sequence/) | Medium |
@@ -204,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0015-3sum/) | Medium |
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
 | [0056-merge-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0056-merge-intervals/) | Medium |
+| [0088-merge-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0088-merge-sorted-array/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0252-meeting-rooms](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0252-meeting-rooms/) | Easy |
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
@@ -357,6 +359,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0061-rotate-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0061-rotate-list/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0086-partition-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0086-partition-list/) | Medium |
+| [0088-merge-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0088-merge-sorted-array/) | Easy |
 | [0143-reorder-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0143-reorder-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
