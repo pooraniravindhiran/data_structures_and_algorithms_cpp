@@ -1,3 +1,6 @@
+// TC- O(nlogn)
+// SC- O(n)
+
 class Solution {
 private:
     vector<int> memo;
