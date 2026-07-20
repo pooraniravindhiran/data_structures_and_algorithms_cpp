@@ -1,3 +1,5 @@
+// SC- O(n) where n is num of times set is called
+
 class TimeMap {
 public:
 
@@ -6,11 +8,15 @@ public:
     }
     
     void set(string key, string value, int timestamp) {
+        // TC- O(1)
+
         mp[key].push_back({timestamp, value});
     }
     
     string get(string key, int timestamp) {
-        if (mp[key].size()==0)
+        // TC- O(logk)
+
+        if (mp.find(key)==mp.end())
             return "";
         
         string ans = "";
