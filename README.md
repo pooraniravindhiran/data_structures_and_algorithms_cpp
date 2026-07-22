@@ -85,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1233-remove-sub-folders-from-the-filesystem/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1288-remove-covered-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1288-remove-covered-intervals/) | Medium |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
@@ -273,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1975-maximum-matrix-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1975-maximum-matrix-sum/) | Medium |
 ## Linked List
@@ -430,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 ## Binary Tree
@@ -493,6 +496,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0325-maximum-size-subarray-sum-equals-k/) | Medium |
 | [0497-random-point-in-non-overlapping-rectangles](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0497-random-point-in-non-overlapping-rectangles/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0528-random-pick-with-weight/) | Medium |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium |
 | [2121-intervals-between-identical-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/2121-intervals-between-identical-elements/) | Medium |
 ## Math
 | Problem Name | Difficulty |
