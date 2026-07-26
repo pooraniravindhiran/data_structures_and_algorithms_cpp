@@ -5,18 +5,24 @@ class Solution {
 public:
     bool isValid(string s) {
         stack<char> st;
+
         for(int i=0; i<s.size(); i++){
-            if(s[i]=='(' or s[i]=='{' or s[i]=='[')
-                st.push(s[i]);
-            else{
-                if(!st.empty() and ((s[i]==']' and st.top()=='[') or (s[i]=='}' and st.top()=='{') or (s[i]==')' and st.top()=='(')))
-                    st.pop();
-                else
+            char ch = s[i];
+            if(ch=='{' or ch=='(' or ch=='[')
+                st.push(ch);
+            else if(ch=='}' or ch==')' or ch==']'){
+                if(st.empty())
+                    return false;
+                char top = st.top();
+                st.pop();
+                if((ch==')' and top!='(') or (ch==']' and top!='[') or (ch=='}' and top!='{'))
                     return false;
             }
         }
+
         if(!st.empty())
             return false;
+        
         return true;
     }
 };
