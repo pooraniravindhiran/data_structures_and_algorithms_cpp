@@ -4,46 +4,47 @@
 class Solution {
 public:
     int calculate(string s) {
-        
-        stack<long long> st;
-        long long num=0;
-        long long res=0;
-        int sign=1;
+        int res = 0;
+        stack<pair<int, int>> st; // prev result, sign 
 
-        for (int i=0; i<s.size(); i++){
+        int sign = 1;
+        long long curr_num = 0;
+
+        for(int i=0; i<s.size(); i++){
             char ch = s[i];
-            if (isdigit(ch))
-                num = (num*10)+(ch-'0');
-        
-            else if (ch=='+'){
-                res += sign*num;
-                num = 0;
-                sign = 1;
-            }   
 
+            if(ch==' ')
+                continue;
+            else if(isdigit(ch))
+                curr_num = (curr_num*10)+(ch-'0');
+            else if(ch=='+'){
+                res += sign* curr_num;
+                sign = 1;
+                curr_num = 0;
+            }
             else if(ch=='-'){
-                res += sign*num;
-                num = 0;
+                res += sign * curr_num;
                 sign = -1;
-            }   
-
+                curr_num = 0;
+            }
             else if(ch=='('){
-                st.push(res);
-                st.push(sign);
+                st.push({res, sign});
+                sign = 1;
+                curr_num = 0;
                 res = 0;
+            }
+            else if (ch==')'){
+                res += sign*curr_num;
+
+                auto [prev_res, prev_sign] = st.top();
+                st.pop();
+
+                res = prev_res+ prev_sign*res;
+                curr_num = 0;
                 sign = 1;
             }
-
-            else if(ch==')'){
-                res += sign*num;
-                num=0;
-                int prevsign = st.top(); st.pop();
-                int prevres = st.top(); st.pop();
-                res = prevres + (prevsign*res);
-            }
-
         }
-        res += sign*num;
-        return (int)res;
+        res += sign*curr_num;
+        return res;
     }
 };
