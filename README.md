@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
+| [0853-car-fleet](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0853-car-fleet/) | Medium |
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0875-koko-eating-bananas/) | Medium |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
@@ -220,6 +221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0694-number-of-distinct-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0694-number-of-distinct-islands/) | Medium |
 | [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
+| [0853-car-fleet](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0853-car-fleet/) | Medium |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
@@ -319,6 +321,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0716-max-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0716-max-stack/) | Hard |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [0772-basic-calculator-iii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0772-basic-calculator-iii/) | Hard |
+| [0853-car-fleet](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0853-car-fleet/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
@@ -571,6 +574,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0496-next-greater-element-i/) | Easy |
 | [0503-next-greater-element-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
+| [0853-car-fleet](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0853-car-fleet/) | Medium |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 ## Merge Sort
 | Problem Name | Difficulty |
