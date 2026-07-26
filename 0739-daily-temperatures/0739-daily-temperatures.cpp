@@ -4,18 +4,17 @@
 class Solution {
 public:
     vector<int> dailyTemperatures(vector<int>& temperatures) {
-        vector<int> ans(temperatures.size(), 0);
+        // monotonically decreasing array
+        vector<int> res(temperatures.size(), 0);
         stack<int> st;
 
-        for(int i=0; i<temperatures.size();  i++){
-            while(!st.empty() and temperatures[st.top()]<temperatures[i]){
-                int top_i = st.top();
+        for(int t=0; t<temperatures.size(); t++){
+            while(!st.empty() and temperatures[st.top()]<temperatures[t]){
+                res[st.top()] = t-st.top();
                 st.pop();
-                ans[top_i] = i-top_i;
             }
-
-            st.push(i);
+            st.push(t);
         }
-        return ans;
+        return res;
     }
 };
