@@ -16,8 +16,12 @@ public:
 
             if(secondList[j][1]>firstList[i][1])
                 i++;
-            else 
+            else if(secondList[j][1]<firstList[i][1])
                 j++;
+            else {
+                j++;
+                i++;
+            }
 
         }
         return res;
