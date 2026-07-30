@@ -19,6 +19,7 @@ public:
         for(int i=0; i<rows; i++){
             for(int j=0; j<cols; j++){
                 if(grid[i][j]==1){
+                    min_dist = INT_MAX;
                     queue<pair<int,int>> q;
                     q.push({i, j});
 
@@ -40,6 +41,7 @@ public:
                                     grid[nextrow][nextcol]--;
                                     distances[nextrow][nextcol] +=steps;
                                     q.push({nextrow, nextcol});
+                                    min_dist = min(min_dist, distances[nextrow][nextcol]);
                                 }
                             }
                         }
@@ -50,16 +52,16 @@ public:
             }
         }
 
-        for (int i = 0; i < rows; ++i) {
-            for (int j = 0; j < cols; ++j) {
+        // for (int i = 0; i < rows; ++i) {
+        //     for (int j = 0; j < cols; ++j) {
                 
-                // A cell is reached by all houses only if its grid value is equal to the final emptyLandValue.
-                // The final emptyLandValue is -(number of houses).
-                if (grid[i][j] == emptyland_val) { 
-                    min_dist = min(min_dist, distances[i][j]);
-                }
-            }
-        }
+        //         // A cell is reached by all houses only if its grid value is equal to the final emptyLandValue.
+        //         // The final emptyLandValue is -(number of houses).
+        //         if (grid[i][j] == emptyland_val) { 
+        //             min_dist = min(min_dist, distances[i][j]);
+        //         }
+        //     }
+        // }
         return min_dist==INT_MAX ? -1:min_dist;
     }
 };
