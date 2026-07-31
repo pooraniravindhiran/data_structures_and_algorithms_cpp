@@ -51,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
 | [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0325-maximum-size-subarray-sum-equals-k/) | Medium |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0346-moving-average-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0346-moving-average-from-data-stream/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0362-design-hit-counter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0362-design-hit-counter/) | Medium |
@@ -142,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0076-minimum-window-substring/) | Hard |
 | [0224-basic-calculator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0224-basic-calculator/) | Hard |
 | [0227-basic-calculator-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0227-basic-calculator-ii/) | Medium |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0394-decode-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0394-decode-string/) | Medium |
 | [0402-remove-k-digits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0402-remove-k-digits/) | Medium |
 | [0424-longest-repeating-character-replacement](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0424-longest-repeating-character-replacement/) | Medium |
@@ -213,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0295-find-median-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
@@ -406,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0230-kth-smallest-element-in-a-bst/) | Medium |
 | [0261-graph-valid-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0426-convert-binary-search-tree-to-sorted-doubly-linked-list/) | Medium |
@@ -469,6 +473,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0239-sliding-window-maximum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0295-find-median-from-data-stream/) | Hard |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0355-design-twitter/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
@@ -623,6 +628,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0210-course-schedule-ii/) | Medium |
 | [0261-graph-valid-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0261-graph-valid-tree/) | Medium |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
 | [0743-network-delay-time](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0743-network-delay-time/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
@@ -658,4 +664,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0062-unique-paths](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0062-unique-paths/) | Medium |
+## Eulerian Circuit
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 <!---LeetCode Topics End-->
