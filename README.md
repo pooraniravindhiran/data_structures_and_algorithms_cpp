@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0011-container-with-most-water/) | Medium |
 | [0014-longest-common-prefix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0014-longest-common-prefix/) | Easy |
 | [0015-3sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0015-3sum/) | Medium |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0033-search-in-rotated-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0034-find-first-and-last-position-of-element-in-sorted-array/) | Medium |
 | [0036-valid-sudoku](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0036-valid-sudoku/) | Medium |
@@ -367,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0011-container-with-most-water/) | Medium |
 | [0015-3sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0015-3sum/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0061-rotate-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0061-rotate-list/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0086-partition-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0086-partition-list/) | Medium |
