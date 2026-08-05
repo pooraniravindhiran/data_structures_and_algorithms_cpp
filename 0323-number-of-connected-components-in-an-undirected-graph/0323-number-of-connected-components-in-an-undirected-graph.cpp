@@ -1,33 +1,60 @@
-// tc- O(e+n)
-// sc- O(e+n)
+// TC- O(n+(e*a(n)))
+// SC- O(n)
+
+class UnionFind{
+public:
+    // SC- O(n)
+    vector<int> parent, rank;
+    int components;
+
+    UnionFind(int n){
+        // TC- O(n)
+        parent.resize(n);
+        for(int i=0; i<n; i++)
+            parent[i]=i;
+        rank.resize(n, 0);
+        components = n;
+    }
+
+    int find(int x){
+        // TC- O(a(n)) amortized where a is the inverse Auckermann function- grows slowly with n
+        // with path compression
+        if(parent[x]!=x)
+            parent[x] = find(parent[x]);
+        
+        return parent[x];
+    }
+
+    void unite(int x, int y){
+        // TC- O(a(n)) amortized where a is the inverse Auckermann function- grows slowly with n
+        // union by rank
+        int px = find(x);
+        int py = find(y);
+        
+        if(px==py)
+            return;
+        
+        if(rank[px]<rank[py])
+            parent[px] = py;
+        else if(rank[px]>rank[py])
+            parent[py] = px;
+        else{
+            parent[px] = py;
+            rank[py]++;
+        }
+
+        components--;
+    }
+};
 
 class Solution {
-private:
-    unordered_set<int> visited;
-    void dfs_helper(vector<vector<int>>& adjlist, int i){
-        visited.insert(i);
-        for(auto& n:adjlist[i]){
-            if(visited.find(n)==visited.end())
-                dfs_helper(adjlist, n);
-        }
-    }
 public:
     int countComponents(int n, vector<vector<int>>& edges) {
-        int ans=0;
-
-        // create adj matrix
-        vector<vector<int>> adjlist(n);
-        for(auto edge:edges){
-            adjlist[edge[0]].push_back(edge[1]);
-            adjlist[edge[1]].push_back(edge[0]);
+        UnionFind uf(n);
+        for(auto& edge:edges){
+            uf.unite(edge[0], edge[1]);
         }
 
-        for(int i=0; i<n; i++){
-            if(visited.find(i)==visited.end()){
-                ans++;
-                dfs_helper(adjlist, i);
-            }
-        }
-        return ans;
+        return uf.components;
     }
 };
