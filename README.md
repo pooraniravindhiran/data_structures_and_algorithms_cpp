@@ -49,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
+| [0305-number-of-islands-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0305-number-of-islands-ii/) | Hard |
 | [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
 | [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0325-maximum-size-subarray-sum-equals-k/) | Medium |
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0160-intersection-of-two-linked-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0202-happy-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0202-happy-number/) | Easy |
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
+| [0305-number-of-islands-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0305-number-of-islands-ii/) | Hard |
 | [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0325-maximum-size-subarray-sum-equals-k/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -571,6 +573,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
 | [0261-graph-valid-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0261-graph-valid-tree/) | Medium |
+| [0305-number-of-islands-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0305-number-of-islands-ii/) | Hard |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
 | [0547-number-of-provinces](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0547-number-of-provinces/) | Medium |
 | [0684-redundant-connection](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0684-redundant-connection/) | Medium |
