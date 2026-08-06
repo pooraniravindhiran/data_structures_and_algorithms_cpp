@@ -145,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0012-integer-to-roman](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0012-integer-to-roman/) | Medium |
 | [0014-longest-common-prefix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0014-longest-common-prefix/) | Easy |
 | [0020-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0020-valid-parentheses/) | Easy |
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0001-two-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0001-two-sum/) | Easy |
 | [0003-longest-substring-without-repeating-characters](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
+| [0012-integer-to-roman](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0012-integer-to-roman/) | Medium |
 | [0036-valid-sudoku](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0036-valid-sudoku/) | Medium |
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0073-set-matrix-zeroes/) | Medium |
@@ -534,6 +536,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0002-add-two-numbers/) | Medium |
 | [0007-reverse-integer](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0007-reverse-integer/) | Medium |
+| [0012-integer-to-roman](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0012-integer-to-roman/) | Medium |
 | [0048-rotate-image](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0048-rotate-image/) | Medium |
 | [0062-unique-paths](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0062-unique-paths/) | Medium |
 | [0066-plus-one](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0066-plus-one/) | Easy |
