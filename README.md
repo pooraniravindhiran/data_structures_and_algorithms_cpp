@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
 | [1564-put-boxes-into-the-warehouse-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1564-put-boxes-into-the-warehouse-i/) | Medium |
+| [1580-put-boxes-into-the-warehouse-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1580-put-boxes-into-the-warehouse-ii/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1564-put-boxes-into-the-warehouse-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1564-put-boxes-into-the-warehouse-i/) | Medium |
+| [1580-put-boxes-into-the-warehouse-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1580-put-boxes-into-the-warehouse-ii/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1975-maximum-matrix-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1975-maximum-matrix-sum/) | Medium |
 ## String
@@ -238,6 +240,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1288-remove-covered-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1288-remove-covered-intervals/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1564-put-boxes-into-the-warehouse-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1564-put-boxes-into-the-warehouse-i/) | Medium |
+| [1580-put-boxes-into-the-warehouse-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1580-put-boxes-into-the-warehouse-ii/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
 ## Breadth-First Search
