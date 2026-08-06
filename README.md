@@ -62,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
+| [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
 | [0496-next-greater-element-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0496-next-greater-element-i/) | Easy |
 | [0497-random-point-in-non-overlapping-rectangles](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0497-random-point-in-non-overlapping-rectangles/) | Medium |
 | [0503-next-greater-element-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0503-next-greater-element-ii/) | Medium |
@@ -116,6 +117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0198-house-robber/) | Medium |
 | [0338-counting-bits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0338-counting-bits/) | Easy |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
+| [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
 | [0542-01-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0542-01-matrix/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
@@ -637,6 +639,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0338-counting-bits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0338-counting-bits/) | Easy |
 | [0371-sum-of-two-integers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0371-sum-of-two-integers/) | Medium |
+| [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -686,4 +689,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
+## Backtracking
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
+## Bitmask
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
 <!---LeetCode Topics End-->
