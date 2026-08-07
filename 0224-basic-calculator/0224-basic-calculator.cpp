@@ -5,46 +5,42 @@ class Solution {
 public:
     int calculate(string s) {
         int res = 0;
-        stack<pair<int, int>> st; // prev result, sign 
 
         int sign = 1;
-        long long curr_num = 0;
+        long long num = 0;
+        stack<pair<int, int>> st; // Stack needed because nested brackets, pair needed because I can't apply the sign until I get the next number, so need to store sign and prev res in stack.
 
-        for(int i=0; i<s.size(); i++){
-            char ch = s[i];
-
+        for(char ch:s){
             if(ch==' ')
                 continue;
             else if(isdigit(ch))
-                curr_num = (curr_num*10)+(ch-'0');
+                num = (num*10)+ch-'0';
             else if(ch=='+'){
-                res += sign* curr_num;
+                res += (sign*num);
+                num = 0;
                 sign = 1;
-                curr_num = 0;
             }
             else if(ch=='-'){
-                res += sign * curr_num;
+                res += (sign*num);
+                num = 0;
                 sign = -1;
-                curr_num = 0;
             }
             else if(ch=='('){
                 st.push({res, sign});
+                num = 0;
                 sign = 1;
-                curr_num = 0;
                 res = 0;
             }
-            else if (ch==')'){
-                res += sign*curr_num;
-
-                auto [prev_res, prev_sign] = st.top();
+            else{
+                res += (sign*num);
+                auto [prev_num, prev_sign] = st.top();
                 st.pop();
-
-                res = prev_res+ prev_sign*res;
-                curr_num = 0;
+                res = prev_num +(prev_sign*res);
                 sign = 1;
+                num = 0;
             }
         }
-        res += sign*curr_num;
+        res += (sign*num);
         return res;
     }
 };
