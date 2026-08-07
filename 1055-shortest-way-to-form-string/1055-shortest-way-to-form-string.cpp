@@ -1,6 +1,8 @@
 // TC- O(nm)
 // SC- O(1)
 
+// better solution using binary search exists
+
 class Solution {
 public:
     int shortestWay(string source, string target) {
