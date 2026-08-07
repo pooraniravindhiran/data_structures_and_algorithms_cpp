@@ -1,50 +1,77 @@
+// TC- O(n)
+// SC- O(n)
+
 class Solution {
 public:
-    int i = 0;
+    int i=0;
     int calculate(string s) {
-        return helper(s);
-    }
-
-    int helper(string& s){
-        stack<int> st;
-        int num=0;
-        char op = '+';
+        stack<long long> st;
+        long long num = 0;
+        char sign = '+';
+        bool closedbyparen = false;
 
         while(i<s.size()){
             char ch = s[i];
-            if (isdigit(ch))
-                num = (num*10)+(ch-'0');
-
-            else if (ch=='('){
+            if(isdigit(ch))
+                num = (num*10) +ch-'0';
+            
+            else if(ch=='('){
                 i++;
-                num = helper(s);
+                num = calculate(s);
             }
-            if ((!isdigit(ch) && ch!=' ') || (i==s.size()-1)){
-                if (op=='+')
+
+            else {
+                if(sign=='+')
                     st.push(num);
-                else if (op=='-')
+                
+                else if(sign=='-')
                     st.push(-num);
-                else if (op=='*'){
-                    int top = st.top(); st.pop();
-                    st.push(top*num);
+
+                else if(sign=='*'){
+                    int x = st.top();
+                    st.pop();
+                    st.push(x * num);
                 }
-                else if (op=='/'){
-                    int top = st.top(); st.pop();
-                    st.push(top/num);
+                else if(sign=='/'){
+                    int x = st.top();
+                    st.pop();
+                    st.push(x / num);
                 }
-                op= ch;
-                if(ch==')')
-                    break;
                 num = 0;
+                if(ch==')'){
+                    closedbyparen= true;
+                    break;
+                }
+                sign = ch;
             }
             i++;
         }
 
-        int res = 0;
-        while(!st.empty()){
-            res += st.top();
+        if(!closedbyparen){
+            // apply last number
+            if(sign == '+')
+                st.push(num);
+            else if(sign == '-')
+                st.push(-num);
+            else if(sign == '*') {
+                int x = st.top();
+                st.pop();
+                st.push(x * num);
+            }
+            else if(sign == '/') {
+                int x = st.top();
+                st.pop();
+                st.push(x / num);
+            }
+        }
+
+        int ans = 0;
+        while(!st.empty()) {
+            ans += st.top();
             st.pop();
         }
-        return res;
+
+        return ans;
+
     }
 };
