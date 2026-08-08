@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
+| [0843-guess-the-word](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0843-guess-the-word/) | Hard |
 | [0853-car-fleet](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0853-car-fleet/) | Medium |
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0875-koko-eating-bananas/) | Medium |
@@ -165,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0721-accounts-merge/) | Medium |
 | [0767-reorganize-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0767-reorganize-string/) | Medium |
 | [0772-basic-calculator-iii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0772-basic-calculator-iii/) | Hard |
+| [0843-guess-the-word](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0843-guess-the-word/) | Hard |
 | [0953-verifying-an-alien-dictionary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0953-verifying-an-alien-dictionary/) | Easy |
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1055-shortest-way-to-form-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1055-shortest-way-to-form-string/) | Medium |
@@ -558,6 +560,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0528-random-pick-with-weight](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0528-random-pick-with-weight/) | Medium |
 | [0772-basic-calculator-iii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0772-basic-calculator-iii/) | Hard |
 | [0840-magic-squares-in-grid](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0840-magic-squares-in-grid/) | Medium |
+| [0843-guess-the-word](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0843-guess-the-word/) | Hard |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Geometry
@@ -716,4 +719,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0037-sudoku-solver/) | Hard |
+## Minimax
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0843-guess-the-word](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0843-guess-the-word/) | Hard |
+## Interactive
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0843-guess-the-word](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0843-guess-the-word/) | Hard |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0843-guess-the-word](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0843-guess-the-word/) | Hard |
 <!---LeetCode Topics End-->
