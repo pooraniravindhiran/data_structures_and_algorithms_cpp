@@ -739,4 +739,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0843-guess-the-word](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0843-guess-the-word/) | Hard |
+## Eulerian Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
+## Semi-Eulerian Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 <!---LeetCode Topics End-->
