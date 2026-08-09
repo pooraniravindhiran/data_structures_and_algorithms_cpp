@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0066-plus-one](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0066-plus-one/) | Easy |
 | [0073-set-matrix-zeroes](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0079-word-search](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0079-word-search/) | Medium |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0084-largest-rectangle-in-histogram](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
 | [0085-maximal-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0085-maximal-rectangle/) | Hard |
@@ -157,6 +158,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
 | [0071-simplify-path](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0071-simplify-path/) | Medium |
 | [0076-minimum-window-substring](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0076-minimum-window-substring/) | Hard |
+| [0079-word-search](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0079-word-search/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
 | [0224-basic-calculator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0224-basic-calculator/) | Hard |
@@ -293,6 +295,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0054-spiral-matrix/) | Medium |
 | [0073-set-matrix-zeroes](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0073-set-matrix-zeroes/) | Medium |
 | [0074-search-a-2d-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [0079-word-search](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0079-word-search/) | Medium |
 | [0085-maximal-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0085-maximal-rectangle/) | Hard |
 | [0130-surrounded-regions](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
@@ -437,6 +440,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0079-word-search](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0079-word-search/) | Medium |
 | [0098-validate-binary-search-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0098-validate-binary-search-tree/) | Medium |
 | [0130-surrounded-regions](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0130-surrounded-regions/) | Medium |
 | [0133-clone-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0133-clone-graph/) | Medium |
@@ -722,6 +726,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0037-sudoku-solver/) | Hard |
+| [0079-word-search](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0079-word-search/) | Medium |
 | [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
 ## Bitmask
 | Problem Name | Difficulty |
