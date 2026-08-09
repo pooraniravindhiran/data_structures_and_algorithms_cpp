@@ -1,31 +1,29 @@
-// TC- O(t+tlogt+t+t) = O(tlogt)
+// TC- O(t+tlogt+t+t)
 // SC- O(t)
 
 class Solution {
 private:
-    
-    unordered_map<string, vector<string>> adjmap;
-    vector<string> itinerary;
+    unordered_map<string, vector<string>> adj_mat;
+    vector<string> res;
     void dfs(string airport){
-        while(!adjmap[airport].empty()){
-            string smallest = adjmap[airport].back();
-            adjmap[airport].pop_back();
-            dfs(smallest);
+        vector<string>& neighbors = adj_mat[airport];
+        while(!neighbors.empty()){
+            string first = neighbors.back();
+            neighbors.pop_back();
+            dfs(first);
         }
-        itinerary.push_back(airport);
+        res.push_back(airport);
     }
 public:
     vector<string> findItinerary(vector<vector<string>>& tickets) {
         // create adj matrix
         for(auto& ticket:tickets)
-            adjmap[ticket[0]].push_back(ticket[1]);
-
-        // must use every edge once, so we pop ticket once used. popping from vector is O(1) if at end- so sort tickets in reverse order
-        for(auto& [airport, destinations]:adjmap)
-            sort(destinations.rbegin(), destinations.rend());
-
+            adj_mat[ticket[0]].push_back(ticket[1]);
+        for(auto& [src, dsts]:adj_mat)
+            sort(dsts.rbegin(), dsts.rend());
+        
         dfs("JFK");
-        reverse(itinerary.begin(), itinerary.end());
-        return itinerary;
+        reverse(res.begin(), res.end());
+        return res;
     }
 };
