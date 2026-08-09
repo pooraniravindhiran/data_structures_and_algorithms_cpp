@@ -1,37 +1,36 @@
-// TC- O(m*n*(3^k)) where m,n are board size, k is word length
-// SC- O(k) due to recursion stack
+// TC- O(mn* 4^l)
+// SC- O(l)
+
 class Solution {
+private:
+    int m, n;
+    vector<int> dirs = {-1, 0, 1, 0, -1};
+    bool dfs(int r, int c, vector<vector<char>>& board, string& word, int i){
+        if(i==word.size())
+            return true;
+
+        // Mark as visited
+        char original = board[r][c];
+        board[r][c] = '#';
+
+        for(int d=0; d<dirs.size()-1; d++){
+            int next_r = r+dirs[d];
+            int next_c = c+dirs[d+1];
+            if(next_r>=0 and next_r<board.size() and next_c>=0 and next_c<board[0].size() and board[next_r][next_c]!='#' and board[next_r][next_c]==word[i]){
+                if(dfs(next_r, next_c, board, word, i+1))
+                    return true;
+            }
+        }
+        board[r][c] = original;
+        return false;
+    }
 public:
     bool exist(vector<vector<char>>& board, string word) {
-        int r = board.size();
-        int c = board[0].size();
-
-        vector<int> dir= {-1, 0, 1, 0, -1};
-        function<bool(int, int, int)> dfs= [&](int a, int b, int w){
-            if (word.size() == w)
-                return true;
-
-            char temp = board[a][b];
-            board[a][b] = '#';
-
-            int row, col;
-            for(int k=0; k<dir.size()-1; k++){
-                row= a+dir[k];
-                col= b+dir[k+1];
-                if(row>=0 and col>=0 and row<r and col<c and word[w]==board[row][col]){
-                    if (dfs(row, col, w+1))
-                        return true;
-                }
-            }
-            board[a][b] = temp;
-            return false;
-        };
-
-        // Iterate through board to find starting letter matches and call dfs
-        for(int i=0; i<r; i++){
-            for(int j=0; j<c; j++){
-                if (word[0]==board[i][j]){
-                    if (dfs(i, j, 1))
+        m = board.size(); n=board[0].size();
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(board[i][j]==word[0]){
+                    if (dfs(i, j, board, word, 1))
                         return true;
                 }
             }
