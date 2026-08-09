@@ -157,6 +157,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0049-group-anagrams](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0049-group-anagrams/) | Medium |
 | [0071-simplify-path](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0071-simplify-path/) | Medium |
 | [0076-minimum-window-substring](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0076-minimum-window-substring/) | Hard |
+| [0208-implement-trie-prefix-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0224-basic-calculator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0224-basic-calculator/) | Hard |
 | [0227-basic-calculator-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0227-basic-calculator-ii/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
@@ -179,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0014-longest-common-prefix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0014-longest-common-prefix/) | Easy |
+| [0208-implement-trie-prefix-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1233-remove-sub-folders-from-the-filesystem/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -198,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0149-max-points-on-a-line](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0149-max-points-on-a-line/) | Hard |
 | [0160-intersection-of-two-linked-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0202-happy-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0202-happy-number/) | Easy |
+| [0208-implement-trie-prefix-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0305-number-of-islands-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0305-number-of-islands-ii/) | Hard |
 | [0311-sparse-matrix-multiplication](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0311-sparse-matrix-multiplication/) | Medium |
@@ -363,6 +366,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0146-lru-cache](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0146-lru-cache/) | Medium |
 | [0155-min-stack](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0155-min-stack/) | Medium |
+| [0208-implement-trie-prefix-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0295-find-median-from-data-stream](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0295-find-median-from-data-stream/) | Hard |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0341-flatten-nested-list-iterator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0341-flatten-nested-list-iterator/) | Medium |
