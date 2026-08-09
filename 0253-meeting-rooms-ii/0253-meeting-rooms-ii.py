@@ -1,15 +1,16 @@
-# TC- O(nlogn)
-# SC- O(n)
-
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-        
-        intervals.sort() # because sorting by end time can make process a shorter late meeting to be processed before a longer meeting that started earlier, which break real world timeline
-        min_heap = [] # heap stores end times of all active meetings
-        max_rooms = 0
+        min_heap = []
+        intervals.sort()
+
         for interval in intervals:
-            while min_heap and interval[0]>=min_heap[0]:
-                heapq.heappop(min_heap)
-            heapq.heappush(min_heap, interval[1])
-            max_rooms = max(max_rooms, len(min_heap))
-        return max_rooms          
+            if not min_heap:
+                heapq.heappush(min_heap, interval[1])
+            else:
+                if interval[0]>=min_heap[0]:
+                    heapq.heappop(min_heap)
+                    heapq.heappush(min_heap, interval[1])
+                else:
+                    heapq.heappush(min_heap, interval[1])
+        return len(min_heap)
+            
