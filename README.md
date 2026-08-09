@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0167-two-sum-ii-input-array-is-sorted/) | Medium |
 | [0198-house-robber](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0198-house-robber/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
+| [0212-word-search-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0212-word-search-ii/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0238-product-of-array-except-self/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0239-sliding-window-maximum/) | Hard |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0079-word-search/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
+| [0212-word-search-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0212-word-search-ii/) | Hard |
 | [0224-basic-calculator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0224-basic-calculator/) | Hard |
 | [0227-basic-calculator-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0227-basic-calculator-ii/) | Medium |
 | [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
@@ -185,6 +187,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0014-longest-common-prefix/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0208-implement-trie-prefix-tree/) | Medium |
 | [0211-design-add-and-search-words-data-structure](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0211-design-add-and-search-words-data-structure/) | Medium |
+| [0212-word-search-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0212-word-search-ii/) | Hard |
 | [1233-remove-sub-folders-from-the-filesystem](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1233-remove-sub-folders-from-the-filesystem/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
@@ -299,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0085-maximal-rectangle/) | Hard |
 | [0130-surrounded-regions](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0130-surrounded-regions/) | Medium |
 | [0200-number-of-islands](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0200-number-of-islands/) | Medium |
+| [0212-word-search-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0212-word-search-ii/) | Hard |
 | [0240-search-a-2d-matrix-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0240-search-a-2d-matrix-ii/) | Medium |
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
@@ -727,6 +731,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0037-sudoku-solver](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0037-sudoku-solver/) | Hard |
 | [0079-word-search](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0079-word-search/) | Medium |
+| [0212-word-search-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0212-word-search-ii/) | Hard |
 | [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
 ## Bitmask
 | Problem Name | Difficulty |
