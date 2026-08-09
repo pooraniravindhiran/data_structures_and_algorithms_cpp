@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0362-design-hit-counter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0362-design-hit-counter/) | Medium |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0373-find-k-pairs-with-smallest-sums/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
@@ -118,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0198-house-robber](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0198-house-robber/) | Medium |
 | [0338-counting-bits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0338-counting-bits/) | Easy |
+| [0410-split-array-largest-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
 | [0542-01-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0542-01-matrix/) | Medium |
@@ -133,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0402-remove-k-digits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0402-remove-k-digits/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0435-non-overlapping-intervals](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0452-minimum-number-of-arrows-to-burst-balloons/) | Medium |
 | [0621-task-scheduler](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0621-task-scheduler/) | Medium |
@@ -463,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0268-missing-number/) | Easy |
 | [0362-design-hit-counter](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0362-design-hit-counter/) | Medium |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0378-kth-smallest-element-in-a-sorted-matrix/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0426-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0426-convert-binary-search-tree-to-sorted-doubly-linked-list/) | Medium |
 | [0497-random-point-in-non-overlapping-rectangles](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0497-random-point-in-non-overlapping-rectangles/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0528-random-pick-with-weight/) | Medium |
@@ -536,6 +540,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0253-meeting-rooms-ii/) | Medium |
 | [0304-range-sum-query-2d-immutable](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0304-range-sum-query-2d-immutable/) | Medium |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0325-maximum-size-subarray-sum-equals-k/) | Medium |
+| [0410-split-array-largest-sum](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0410-split-array-largest-sum/) | Hard |
 | [0497-random-point-in-non-overlapping-rectangles](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0497-random-point-in-non-overlapping-rectangles/) | Medium |
 | [0528-random-pick-with-weight](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0528-random-pick-with-weight/) | Medium |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium |
