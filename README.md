@@ -99,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
+| [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard |
 | [1564-put-boxes-into-the-warehouse-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1564-put-boxes-into-the-warehouse-i/) | Medium |
 | [1580-put-boxes-into-the-warehouse-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1580-put-boxes-into-the-warehouse-ii/) | Medium |
 | [1584-min-cost-to-connect-all-points](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
+| [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -145,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
 | [1055-shortest-way-to-form-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1055-shortest-way-to-form-string/) | Medium |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1296-divide-array-in-sets-of-k-consecutive-numbers/) | Medium |
+| [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard |
 | [1564-put-boxes-into-the-warehouse-i](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1564-put-boxes-into-the-warehouse-i/) | Medium |
 | [1580-put-boxes-into-the-warehouse-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1580-put-boxes-into-the-warehouse-ii/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
@@ -369,6 +372,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0853-car-fleet](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0853-car-fleet/) | Medium |
 | [1249-minimum-remove-to-make-valid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1249-minimum-remove-to-make-valid-parentheses/) | Medium |
 | [1472-design-browser-history](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1472-design-browser-history/) | Medium |
+| [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 ## Design
 | Problem Name | Difficulty |
@@ -643,6 +647,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0503-next-greater-element-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0503-next-greater-element-ii/) | Medium |
 | [0739-daily-temperatures](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0739-daily-temperatures/) | Medium |
 | [0853-car-fleet](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0853-car-fleet/) | Medium |
+| [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard |
 | [1944-number-of-visible-people-in-a-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1944-number-of-visible-people-in-a-queue/) | Hard |
 ## Merge Sort
 | Problem Name | Difficulty |
