@@ -19,19 +19,18 @@ public:
         if (mp.find(key)==mp.end())
             return "";
         
-        string ans = "";
         int left =0;
         int right = mp[key].size()-1;
-        while(left<=right){
-            int mid = left +(right-left)/2;
+        while(left<right){
+            int mid = left +(right-left+1)/2;
             if (mp[key][mid].first>timestamp)
                 right = mid-1;
-            else{
-                ans = mp[key][mid].second;
-                left = mid+1;
-            }
+            else
+                left = mid;
         }
-        return ans;
+        if(mp[key][left].first>timestamp)
+            return "";
+        return mp[key][left].second;
     }
 };
 
