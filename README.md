@@ -779,4 +779,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1115-print-foobar-alternately](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1115-print-foobar-alternately/) | Medium |
+| [1195-fizz-buzz-multithreaded](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1195-fizz-buzz-multithreaded/) | Medium |
 <!---LeetCode Topics End-->
