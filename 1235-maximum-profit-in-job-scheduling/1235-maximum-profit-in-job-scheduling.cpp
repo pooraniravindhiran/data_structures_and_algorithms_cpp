@@ -3,17 +3,16 @@
 
 class Solution {
 private:
-    vector<int> memo;
-    vector<vector<int>> jobs;
+    vector<int> dp;
     int n;
-    int next_task(int end){
-        int left =0;
-        int right = n-1;
+    vector<vector<int>> jobs;
+
+    int find_next(int t){
+        int left= 0, right=n-1;
         int ans = n;
         while(left<=right){
             int mid = left+(right-left)/2;
-
-            if (jobs[mid][0]<end)
+            if(jobs[mid][0]<t)
                 left = mid+1;
             else{
                 ans = mid;
@@ -23,31 +22,24 @@ private:
         return ans;
     }
 
-    int maxProfitsFrom(int i){
-        if (i==n)
+    int max_profits_from(int i){
+        if(i>=n)
             return 0;
-
-        if(memo[i]!=-1)
-            return memo[i];
         
-        int skip = maxProfitsFrom(i+1);
-        int take = jobs[i][2]+maxProfitsFrom(next_task(jobs[i][1]));
-        memo[i] = max(skip, take);
-        return memo[i];
+        if(dp[i]!=-1)
+            return dp[i];
+        
+        dp[i] = max(jobs[i][2]+max_profits_from(find_next(jobs[i][1])), max_profits_from(i+1));
+        return dp[i];
     }
+
 public:
     int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
-        
-        // sort by start time
-        // if i pick a task vs i dont
-        // (profits[i] + maxprofit(next_task after endtime[i]) , maxprofit(i+1)
-
-        n = startTime.size();
+        n = profit.size();
         for(int i=0; i<n; i++)
             jobs.push_back({startTime[i], endTime[i], profit[i]});
         sort(jobs.begin(), jobs.end());
-
-        memo.assign(n, -1);
-        return maxProfitsFrom(0);
+        dp.assign(n, -1);
+        return max_profits_from(0);
     }
 };
