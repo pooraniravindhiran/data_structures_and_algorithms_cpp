@@ -1,37 +1,38 @@
-// TC- O(nlogn + qlogq + nlogn) = O(nlogn +qlogq)
-// SC- O(logn + q + n) = O(n+q)
+// TC- O(ilogi+qlogq)
+// SC- O(i+q)
 
 class Solution {
 public:
     vector<int> minInterval(vector<vector<int>>& intervals, vector<int>& queries) {
-        // bruteforce means checking all interavsl for every query, so TC is n*q. 
-        // let's make it optimal by sorting first
-        sort(intervals.begin(), intervals.end());
-        
-        // sort queries too but we need their indices to return ans in right order
-        vector<pair<int, int>> sorted_queries;
-        for(int i=0; i<queries.size(); i++){
+        vector<vector<int>> sorted_intervals;
+        for(int i=0; i<intervals.size(); i++)
+            sorted_intervals.push_back({intervals[i][0], intervals[i][1], i});
+        sort(sorted_intervals.begin(), sorted_intervals.end());
+
+        vector<vector<int>> sorted_queries;
+        for(int i=0; i<queries.size(); i++)
             sorted_queries.push_back({queries[i], i});
-        }
         sort(sorted_queries.begin(), sorted_queries.end());
-
-        // use min heap to track candidate intervals
+        int j=0;
+    
+        vector<int> ans(queries.size(), -1);
         priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> min_heap;
-        vector<int> result(queries.size(), -1);
 
-        int i=0;
-        for(auto &[query, idx]:sorted_queries){
-            while(i<intervals.size() and query>=intervals[i][0]){
-                int int_size = intervals[i][1]-intervals[i][0]+1;
-                min_heap.push({int_size, intervals[i][1]});
-                i++;
+        for(int i=0; i<sorted_queries.size(); i++){
+            int query = sorted_queries[i][0];
+
+            while(j<sorted_intervals.size() and sorted_intervals[j][0]<=query){
+                min_heap.push({sorted_intervals[j][1]-sorted_intervals[j][0]+1, j});
+                j++;
             }
-            while(!min_heap.empty() and query>min_heap.top().second){
+
+            while(!min_heap.empty() and sorted_intervals[min_heap.top().second][1]<query){
                 min_heap.pop();
             }
+
             if(!min_heap.empty())
-                result[idx] = min_heap.top().first;
+                ans[sorted_queries[i][1]] = min_heap.top().first;
         }
-        return result;
+        return ans;
     }
 };
