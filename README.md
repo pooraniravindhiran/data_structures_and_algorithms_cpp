@@ -781,4 +781,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1115-print-foobar-alternately](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1115-print-foobar-alternately/) | Medium |
 | [1188-design-bounded-blocking-queue](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1188-design-bounded-blocking-queue/) | Medium |
 | [1195-fizz-buzz-multithreaded](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1195-fizz-buzz-multithreaded/) | Medium |
+## Tournament Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0023-merge-k-sorted-lists/) | Hard |
 <!---LeetCode Topics End-->
