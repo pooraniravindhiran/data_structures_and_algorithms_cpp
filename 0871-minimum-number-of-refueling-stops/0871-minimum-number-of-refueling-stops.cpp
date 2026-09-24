@@ -1,5 +1,5 @@
-// SC- O(nlogn)
-// TC- O(n)
+// SC- O(n)
+// TC- O(nlogn)
 
 class Solution {
 public:
@@ -15,7 +15,7 @@ public:
             currfuel = currfuel - (stations[i][0]-currpos);
             currpos = stations[i][0];
 
-            if(currfuel<0){
+            while(currfuel<0){
                 if(max_heap.empty())
                     return -1;
                 currfuel += max_heap.top();
