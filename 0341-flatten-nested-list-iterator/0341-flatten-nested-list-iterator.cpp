@@ -16,36 +16,36 @@
  * };
  */
 
-// SC- O(n) where n is the num of nestedint objects in input
-
 class NestedIterator {
 private:
-    stack<NestedInteger> st; // store nestedint instead of int in stack because otherwise in nested lists, you will have to remember indices like when doing it without stack
+    // SC- O(n)
+    stack<NestedInteger> st;
 public:
     NestedIterator(vector<NestedInteger> &nestedList) {
         // TC- O(n)
-        for(auto it=nestedList.rbegin(); it!=nestedList.rend(); it++)
-            st.push(*it);
+        for(int j=nestedList.size()-1; j>=0; j--)
+            st.push(nestedList[j]);
     }
     
     int next() {
         // TC- O(1)
-        int ans = st.top().getInteger();
+        int val = st.top().getInteger();
         st.pop();
-        return ans;
+        return val;
     }
     
     bool hasNext() {
-        // TC- amortized O(1) because some calls might have to process nested lists but if there are p integers in total, then there will be p pushes and pops onto stack in total
+        // TC- amortized O(1)
         while(!st.empty()){
-            if(st.top().isInteger())
+            if (st.top().isInteger())
                 return true;
-
-            auto curr = st.top().getList();
+            
+            auto l = st.top().getList();
             st.pop();
-            for(auto it=curr.rbegin(); it!=curr.rend(); it++)
-                st.push(*it);
+            for(int i=l.size()-1; i>=0; i--)
+                st.push(l[i]);
         }
+
         return false;
     }
 };
