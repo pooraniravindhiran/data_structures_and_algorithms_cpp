@@ -2,45 +2,53 @@
 // SC- O(n)
 
 class Solution {
+private:
+    stack<pair<int, int>> st;
+
 public:
     int calculate(string s) {
-        int res = 0;
-
-        int sign = 1;
+        int ans = 0;
         long long num = 0;
-        stack<pair<int, int>> st; // Stack needed because nested brackets, pair needed because I can't apply the sign until I get the next number, so need to store sign and prev res in stack.
+        int sign = 1;
 
         for(char ch:s){
             if(ch==' ')
                 continue;
+            
             else if(isdigit(ch))
-                num = (num*10)+ch-'0';
+                num = (num*10)+ (ch-'0');
+            
             else if(ch=='+'){
-                res += (sign*num);
+                ans += (sign*num);
                 num = 0;
                 sign = 1;
             }
+
             else if(ch=='-'){
-                res += (sign*num);
+                ans += (sign*num);
                 num = 0;
                 sign = -1;
             }
+
             else if(ch=='('){
-                st.push({res, sign});
-                num = 0;
+                st.push({ans, sign});
+                ans = 0;
                 sign = 1;
-                res = 0;
             }
-            else{
-                res += (sign*num);
-                auto [prev_num, prev_sign] = st.top();
-                st.pop();
-                res = prev_num +(prev_sign*res);
-                sign = 1;
-                num = 0;
+
+            else if(ch==')'){
+                if(!st.empty()){
+                    auto [prev_ans, prev_sign] = st.top();
+                    st.pop();
+                    ans += (sign*num);
+                    ans = prev_ans + (prev_sign*ans);
+                    sign = 1;
+                    num = 0;
+                }
             }
         }
-        res += (sign*num);
-        return res;
+        if(s[s.size()-1]!=')')
+            ans += (sign*num);
+        return ans;
     }
 };
