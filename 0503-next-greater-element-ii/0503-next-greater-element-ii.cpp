@@ -21,7 +21,7 @@ public:
 
         stack<int> st; // monotonically dec
         vector<int> res(nums.size(), -1);
-        for(int i=2*nums.size()-1; i>=0; i--){
+        for(int i=2*nums.size()-2; i>=0; i--){
             int idx = i%nums.size();
             while(!st.empty() and nums[idx]>=st.top())
                 st.pop();
