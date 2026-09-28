@@ -1,17 +1,19 @@
-// TC- O(n^2*a(n))
+// TC- O(n)
 // SC- O(n)
 
 class UnionFind{
-public:
+private:
     vector<int> parent, rank;
+public:
     int components;
-
     UnionFind(int n){
         components = n;
+
         parent.resize(n);
-        rank.resize(n, 0);
         for(int i=0; i<n; i++)
             parent[i] = i;
+        
+        rank.resize(n, 0);
     }
 
     int find(int x){
@@ -20,12 +22,12 @@ public:
         return parent[x];
     }
 
-    void unite(int x, int y){
+    bool unite(int x, int y){
         int px = find(x);
         int py = find(y);
 
         if(px==py)
-            return;
+            return false;
         
         if(rank[px]<rank[py])
             parent[px] = py;
@@ -35,9 +37,12 @@ public:
             parent[px] = py;
             rank[py]++;
         }
+
         components--;
+        return true;
     }
 };
+
 
 class Solution {
 public:
@@ -45,8 +50,8 @@ public:
         int n = isConnected.size();
         UnionFind uf(n);
         for(int i=0; i<n; i++){
-            for(int j=i+1; j<n; j++){
-                if(isConnected[i][j]==1)
+            for(int j=0; j<i; j++){
+                if(isConnected[i][j]==1 or isConnected[j][i]==1)
                     uf.unite(i, j);
             }
         }
