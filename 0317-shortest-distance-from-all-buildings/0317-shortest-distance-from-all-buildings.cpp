@@ -1,47 +1,61 @@
-// TC- O(m^2*n^2)
+// TC- O((mn)^2)
 // SC- O(mn)
 
 class Solution {
 private:
     vector<vector<int>> dist;
-    int m=0, n =0;
+    vector<vector<int>> num_buildings;
+    int m, n, total_buildings;
     vector<int> dirs = {-1, 0, 1, 0, -1};
-    int emptylandval = 0;
-    int shortest_dist = INT_MAX;
-    
+
 public:
     int shortestDistance(vector<vector<int>>& grid) {
-        this->m = grid.size();
-        this->n = grid[0].size();
-        this->dist = vector<vector<int>> (m, vector<int>(n, 0));
+        m = grid.size();
+        n = grid[0].size();
+
+        dist = vector<vector<int>>(m, vector<int>(n, 0));
+        num_buildings = vector<vector<int>>(m, vector<int>(n, 0));
+        total_buildings = 0;
+
         for(int i=0; i<m; i++){
             for(int j=0; j<n; j++){
                 if(grid[i][j]==1){
-                    shortest_dist = INT_MAX;
-                    queue<vector<int>> q;
-                    q.push({i, j, 0});
-                    
+                    total_buildings++;
+                    queue<pair<int, int>> q;
+                    vector<vector<bool>> visited(m, vector<bool>(n, false));
+                    q.push({i, j});
+                    visited[i][j]= true;
+                    int level = 1;
                     while(!q.empty()){
-                        auto curr = q.front();
-                        q.pop();
-                        int r= curr[0], c= curr[1], level= curr[2];
-                        for(int d=0; d<dirs.size()-1; d++){
-                            int next_r = r+dirs[d], next_c = c+dirs[d+1];
-                            if(next_r>=0 and next_r<m and next_c>=0 and next_c<n and grid[next_r][next_c]==emptylandval){
-                                grid[next_r][next_c] --;
-                                q.push({next_r, next_c, level+1});
-                                dist[next_r][next_c] += level+1;
-                                shortest_dist = min(shortest_dist, dist[next_r][next_c]);
+                        int q_size = q.size();
+                        for(int k =0; k<q_size; k++){
+                            auto curr = q.front();
+                            q.pop();
+                            for(int d=0;d<dirs.size()-1; d++){
+                                int next_i = curr.first+dirs[d];
+                                int next_j = curr.second+dirs[d+1];
+                                if(next_i>=0 and next_i<m and next_j>=0 and next_j<n and visited[next_i][next_j]==false and grid[next_i][next_j]==0){
+                                    visited[next_i][next_j] = true;
+                                    q.push({next_i, next_j});
+                                    num_buildings[next_i][next_j]++;
+                                    dist[next_i][next_j] += level;
+                                }
                             }
                         }
-                    }  
-                    
-                    emptylandval--;
+                        level++;
+                    }
                 }
             }
         }
-        if(shortest_dist==INT_MAX)
-            return -1;
-        return shortest_dist;       
+
+        int shortest_dist = INT_MAX;
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                if(num_buildings[i][j]==total_buildings)
+                    shortest_dist = min(shortest_dist, dist[i][j]);
+            }
+        }
+    
+        return (shortest_dist==INT_MAX) ? -1:shortest_dist;
     }
 };
