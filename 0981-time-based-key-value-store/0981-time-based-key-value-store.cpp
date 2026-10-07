@@ -24,9 +24,9 @@ public:
         int right = mp[key].size()-1;
         while(left<=right){
             int mid = left +(right-left)/2;
-            if (mp[key][mid].first==timestamp)
-                return mp[key][mid].second;
-            else if (mp[key][mid].first>timestamp)
+            // if (mp[key][mid].first==timestamp)
+            //     return mp[key][mid].second;
+            if (mp[key][mid].first>timestamp)
                 right = mid-1;
             else{
                 ans = mp[key][mid].second;
