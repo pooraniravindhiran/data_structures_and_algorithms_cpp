@@ -19,14 +19,19 @@ public:
         
         // need the first pefix_sum idx >= i
         int left = 0, right = prefix_sum.size()-1;
-        while(left<right){
+        int ans = -1;
+        while(left<=right){
             int mid = left+(right-left)/2;
-            if(prefix_sum[mid]<i)
+            if(prefix_sum[mid]==i)
+                return mid;
+            else if(prefix_sum[mid]<i)
                 left = mid+1;
-            else
-                right = mid;
+            else{
+                ans = mid;
+                right = mid-1;
+            }
         }
-        return left;
+        return ans;
     }
 };
 
