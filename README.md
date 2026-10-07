@@ -503,6 +503,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium |
 | [1760-minimum-limit-of-balls-in-a-bag](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1760-minimum-limit-of-balls-in-a-bag/) | Medium |
 | [1851-minimum-interval-to-include-each-query](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1851-minimum-interval-to-include-each-query/) | Hard |
+| [3733-minimum-time-to-complete-all-deliveries](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/3733-minimum-time-to-complete-all-deliveries/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -593,6 +594,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0843-guess-the-word](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0843-guess-the-word/) | Hard |
 | [0939-minimum-area-rectangle](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0939-minimum-area-rectangle/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0973-k-closest-points-to-origin/) | Medium |
+| [3733-minimum-time-to-complete-all-deliveries](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/3733-minimum-time-to-complete-all-deliveries/) | Medium |
 ## Geometry
 | Problem Name | Difficulty |
 | ------- | ------- |
