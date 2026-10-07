@@ -30,14 +30,21 @@ public:
         // TC- O(log s)
         auto & curr_idx = snapshots[index];
         int left = 0, right = curr_idx.size()-1;
-        while(left<right){
-            int mid = left+(right-left+1)/2;
-            if(curr_idx[mid].first>snap_id)
-                right = mid-1;
-            else
-                left = mid;
+        int ans = 0;
+
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+
+            if (curr_idx[mid].first <= snap_id) {
+                ans = mid;          // valid candidate
+                left = mid + 1;     // try to find a later valid one
+            }
+            else {
+                right = mid - 1;    // too large
+            }
         }
-        return curr_idx[left].second;
+
+        return curr_idx[ans].second;
     }
 };
 
