@@ -799,4 +799,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1584-min-cost-to-connect-all-points/) | Medium |
+## Persistent Data Structure
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
 <!---LeetCode Topics End-->
