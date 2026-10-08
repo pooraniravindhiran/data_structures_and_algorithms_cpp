@@ -38,13 +38,12 @@ public:
     }
 
     ~LRUCache() {
-        Node* curr = head;
-
-        while (curr != nullptr) {
-            Node* next = curr->next;
-            delete curr;
-            curr = next;
+        for (auto &p : mp) {
+            delete p.second;
         }
+
+        delete head;
+        delete tail;
     }
     
     int get(int key) {
