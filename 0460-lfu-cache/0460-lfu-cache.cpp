@@ -1,84 +1,124 @@
-// SC- O(capacity)
-
 class LFUCache {
 private:
-    int capacity;
-    int minfreq; 
-
     struct Node{
         int key;
-        int value;
+        int val;
         int freq;
-        Node(int k, int v, int f): key(k), value(v), freq(f){}
+        Node* prev;
+        Node* next;
+        Node(int k, int v):key(k), val(v){
+            freq = 1;
+            prev = NULL;
+            next= NULL;
+        }
     };
 
-    // you need to group keys by frequencies and same freq keys should be prioritized by recency- so need a list like in LRU
-    unordered_map<int, list<Node>> freqmap;
+    int capacity, min_freq;
 
-    // for O(1) lookup, similar to LRU cache, you need to map keys to iterators
-    unordered_map<int, list<Node>::iterator> keytoNode;
+    unordered_map<int, Node*> mp;
+    
+    // freq -> DLL of nodes
+    unordered_map<int, Node*> freqHead;
+    unordered_map<int, Node*> freqTail;
+
+    void removeNode(Node* node){
+        node->prev->next = node->next;
+        node->next->prev = node->prev;
+    }
+
+    void addNode(Node* node){
+        int freq = node->freq;
+
+        // if freq is not present
+        if(freqHead.find(freq)==freqHead.end()){
+            freqHead[freq] = new Node(0, 0);
+            freqTail[freq] = new Node(0, 0);
+
+            freqHead[freq]-> next = freqTail[freq];
+            freqTail[freq]-> prev = freqHead[freq];
+        }
+
+        Node* tail = freqTail[freq];
+        tail->prev->next = node;
+        node->prev = tail->prev;
+        node->next = tail;
+        tail->prev = node;
+    }
+
+    void increaseFreq(Node* node){
+        // get freq
+        int freq = node->freq;
+
+        // remove node
+        removeNode(node);
+
+        // update min freq if needed
+        if(min_freq==freq and freqHead[freq]->next==freqTail[freq]){
+            min_freq++;
+        }
+
+        // update freq
+        node->freq++;
+
+        // add to new freq
+        addNode(node);
+    }
 
 public:
     LFUCache(int capacity) {
         this->capacity = capacity;
-        minfreq = 0;
+        min_freq = 0;
+    }
+
+    ~LFUCache(){
+        for (auto &p : mp) {
+            delete p.second;
+        }
+
+        for(auto &p: freqHead)
+            delete p.second;
+
+        for(auto &p: freqTail)
+            delete p.second;
+        
     }
     
     int get(int key) {
-        // TC- O(1)
-        // if key is not there, return -1
-        if(keytoNode.count(key)==0)
+        if(mp.find(key)==mp.end())
             return -1;
+        
+        Node* node = mp[key];
 
-        auto it = keytoNode[key];
-        int val = it->value;
-        int freq = it->freq;
+        increaseFreq(node);
 
-        // update freq
-        // remove from curr freq bucket
-        freqmap[freq].erase(it);
-
-        // if this was the only item in the list, remove that freq itself
-        if(freqmap[freq].empty()){
-            freqmap.erase(freq);
-            if(minfreq==freq)
-                minfreq++;
-        }
-
-        // add it to next freq
-        freqmap[freq+1].emplace_front(key, val, freq+1);
-        keytoNode[key] = freqmap[freq+1].begin();
-
-        // return value
-        return val;
+        // get and return val
+        return node->val;
     }
     
     void put(int key, int value) {
-        // TC- O(1)
-        // if key is new
-        if(keytoNode.count(key)==0){
-            // if reached capacity, remove least freq key or if tie, least recently used key
-            if(keytoNode.size()==capacity){
-                auto lr = freqmap[minfreq].back();
-                keytoNode.erase(lr.key);
-                freqmap[minfreq].pop_back();
+        // if key there, update val and freq
+        if(mp.find(key)!=mp.end()){
+            Node* node = mp[key];
+            node->val = value;
+            increaseFreq(node);
+            return;
+        }
 
-                // if this was the only item in the list, erase list
-                if(freqmap[minfreq].empty()){
-                    freqmap.erase(minfreq);
-                }
-            }
-            freqmap[1].emplace_front(key, value, 1);
-            keytoNode[key] = freqmap[1].begin();
-            minfreq = 1;
+        // if not there, add it
+        Node* node = new Node(key, value);
+        addNode(node);
+        mp[key] = node;
+
+        // if capacity reached, evict LF/ LRU
+        if(mp.size()>capacity){
+            Node* lru = freqHead[min_freq]->next;
+            removeNode(lru);
+            mp.erase(lru->key);
+            delete lru;
         }
-        // if key is already present
-        else{
-            auto it = keytoNode[key];
-            int freq = it->freq;
-            it->value = value;
-            get(key);
-        }
+
+        // update min_freq
+        min_freq = 1;
     }
 };
 
