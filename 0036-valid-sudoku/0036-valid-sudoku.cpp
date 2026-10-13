@@ -1,55 +1,48 @@
-// TC- O(mn)
-// SC- O(1)
-
 class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
-        vector<bool> valid;
-        valid.assign(10, false);
+        int nrows = 9;
+        int ncols = 9;
 
-        for(int i=0; i<board.size(); i++){
-            valid.assign(10, false);
-            for(int j=0; j<board[0].size(); j++){
-                if (board[i][j]!= '.'){
-                    int num = board[i][j]-'0';
-                    // cout<<num<<endl;
-                    if (valid[num] == true)
-                        return false;
-                    valid[num] = true;
-                }
+        for(int i=0; i<nrows; i++){
+            vector<bool> digits(9, false);
+            for(int j=0; j<ncols; j++){
+                if(board[i][j]=='.')
+                    continue;
+                if(digits[board[i][j]-'1']==true)
+                    return false;
+                digits[board[i][j]-'1'] = true;
             }
         }
 
-        for(int j=0; j<board[0].size(); j++){
-            valid.assign(10, false);
-            for(int i=0; i<board.size(); i++){
-                if (board[i][j]!= '.'){
-                    int num = board[i][j]-'0';
-                    // cout<<num<<endl;
-                    if (valid[num] == true)
-                        return false;
-                    valid[num] = true;
-                }
+        for(int j=0; j<ncols; j++){
+            vector<bool> digits(9, false);
+            for(int i=0; i<nrows; i++){
+                if(board[i][j]=='.')
+                    continue;
+                if(digits[board[i][j]-'1']==true)
+                    return false;
+                digits[board[i][j]-'1'] = true;
             }
         }
 
-        for(int i=0; i<9; i++){
-            valid.assign(10, false);
-            int startRow = (i/3)*3;
-            int startCol = (i%3)*3;
-            for(int j=0; j<9; j++){
-                int r = (j/3) + startRow;
-                int c = (j%3) + startCol;
-                if (board[r][c]!= '.'){
-                    int num = board[r][c]-'0';
-                    // cout<<num<<endl;
-                    if (valid[num] == true)
-                        return false;
-                    valid[num] = true;
-                }
+        for(int i=0; i<nrows; i++){
+            int start_r = (i/3)*3;
+            int start_c = (i%3)*3;
+            // cout<<start_r<<" "<<start_c<<endl;
+            vector<bool> digits(9, false);
+            for(int j=0; j<nrows; j++){
+                int r = (j/3)+start_r;
+                int c = (j%3)+start_c;
+                // cout<<r<<" "<<c<<endl;
+                if(board[r][c]=='.')
+                    continue;
+                if(digits[board[r][c]-'1']==true)
+                    return false;
+                digits[board[r][c]-'1'] = true;
             }
         }
-
         return true;
+
     }
 };
