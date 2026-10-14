@@ -1,40 +1,41 @@
-// TC- O(n)
-// SC- O(n)
+// TC- O(n+l) where n is len of encoded string and l is len of decoded string
+// SC- O(n+l)
 
 class Solution {
 public:
     string decodeString(string s) {
-        stack<pair<string, int>> st; // repeat_count, string built so far
-        int curr_num = 0;
-        string curr_str = "";
+        stack<int> future_counts;
+        stack<string> strs;
+
+        string curr = "";
+        int num = 0;
 
         for(int i=0; i<s.size(); i++){
             char ch = s[i];
             if(isdigit(ch))
-                curr_num = (curr_num*10)+(ch-'0');
-
+                num = (num*10) + (ch-'0');
             else if(ch=='['){
-                // pause what you're building because new string is there
-                st.push({curr_str, curr_num});
-                curr_num = 0;
-                curr_str = "";
+                future_counts.push(num);
+                strs.push(curr);
+                num = 0;
+                curr = "";
             }
-            
             else if(ch==']'){
-                auto top = st.top();
-                st.pop();
-                string temp = "";
-                for(int k=0; k<top.second; k++)
-                    temp += curr_str;
+                string prev = strs.top();
+                strs.pop();
 
-                temp = top.first + temp;
-                curr_str = temp;
+                int curr_count = future_counts.top();
+                future_counts.pop();
+
+                for(int i=0; i<curr_count; i++)
+                    prev += curr;
+                curr = prev;
+    
             }
-
-            else
-                curr_str += ch;
+            else{
+                curr += ch;
+            }
         }
-
-        return curr_str;
+        return curr;
     }
 };
