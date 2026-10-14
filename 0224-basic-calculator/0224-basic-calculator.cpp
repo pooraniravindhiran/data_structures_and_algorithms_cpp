@@ -1,54 +1,53 @@
-// TC- O(n)
-// SC- O(n)
-
 class Solution {
-private:
-    stack<pair<int, int>> st;
-
 public:
     int calculate(string s) {
-        int ans = 0;
         long long num = 0;
         int sign = 1;
+        int ans = 0;
+        stack<pair<int, int>> st;
 
-        for(char ch:s){
+        for(int i=0; i<s.size()+1; i++){
+            char ch = (i==s.size()) ? '+':s[i];
+
             if(ch==' ')
                 continue;
-            
+
             else if(isdigit(ch))
-                num = (num*10)+ (ch-'0');
+                num = (num*10)+(ch-'0');
             
             else if(ch=='+'){
                 ans += (sign*num);
-                num = 0;
                 sign = 1;
+                num = 0;
             }
 
             else if(ch=='-'){
                 ans += (sign*num);
-                num = 0;
                 sign = -1;
+                num = 0;
             }
 
             else if(ch=='('){
                 st.push({ans, sign});
+                num = 0;
                 ans = 0;
                 sign = 1;
             }
 
-            else if(ch==')'){
-                if(!st.empty()){
-                    auto [prev_ans, prev_sign] = st.top();
-                    st.pop();
-                    ans += (sign*num);
-                    ans = prev_ans + (prev_sign*ans);
-                    sign = 1;
-                    num = 0;
-                }
+            else{
+                auto& top = st.top();
+                st.pop();
+                ans += (sign*num);
+                sign = 1;
+                num = 0;
+                int prev_ans = top.first;
+                int prev_sign = top.second;
+                prev_ans += (prev_sign*ans);
+                ans = prev_ans;
             }
+
         }
-        if(s[s.size()-1]!=')')
-            ans += (sign*num);
         return ans;
+
     }
 };
