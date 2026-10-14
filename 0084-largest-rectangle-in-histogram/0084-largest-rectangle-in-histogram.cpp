@@ -4,22 +4,25 @@
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
-        int maxArea = 0;
-        stack<int> st; // stores indices
-        heights.push_back(0); // to flush out stack at the end
+        stack<int> st;
+        int max_area = 0;
+        heights.push_back(0);
 
         for(int i=0; i<heights.size(); i++){
-            while(not st.empty() and heights[st.top()]>heights[i]){
-                int height = heights[st.top()];
+            while(!st.empty() and heights[i]<=heights[st.top()]){
+                // rect upto that pt including it
+                int top = st.top();
                 st.pop();
-                int width;
-                int right_boundary = i-1;
-                int left_boundary = st.empty() ? 0:st.top()+1;
-                width = right_boundary-left_boundary+1;
-                maxArea = max(maxArea, height*width);
+                int height = heights[top];
+                int rb = i-1;
+                int lb = (st.empty()) ? 0:st.top()+1;
+                int width = rb-lb+1;
+                int area = height*width;
+                max_area = max(max_area, area);
             }
             st.push(i);
         }
-        return maxArea;
+
+        return max_area;
     }
 };
