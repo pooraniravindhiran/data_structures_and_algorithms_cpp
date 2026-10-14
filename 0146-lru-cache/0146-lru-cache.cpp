@@ -11,17 +11,18 @@ private:
             next = NULL;
         }
     };
+
     unordered_map<int, Node*> mp;
     int capacity;
     Node* head;
     Node* tail;
 
-    void removeNode(Node* node){
+    void remove(Node* node){
         node->prev->next = node->next;
         node->next->prev = node->prev;
     }
 
-    void addNode(Node* node){
+    void add(Node* node){
         tail->prev->next = node;
         node->prev = tail->prev;
         node->next = tail;
@@ -30,18 +31,16 @@ private:
 
 public:
     LRUCache(int capacity) {
-        this->capacity= capacity;
-        head = new Node(0, 0);
-        tail = new Node(0, 0);
+        this->capacity = capacity;
+        head = new Node(-1, -1);
+        tail = new Node(-1, -1);
         head->next = tail;
         tail->prev = head;
     }
 
-    ~LRUCache() {
-        for (auto &p : mp) {
+    ~LRUCache(){
+        for(auto& p:mp)
             delete p.second;
-        }
-
         delete head;
         delete tail;
     }
@@ -50,37 +49,29 @@ public:
         // TC- O(1)
         if(mp.find(key)==mp.end())
             return -1;
-
+        
         Node* node = mp[key];
-
-        // update recency- move this node to MRU
-        removeNode(node);
-        addNode(node);
-
+        remove(node);
+        add(node);
         return node->val;
     }
     
     void put(int key, int value) {
-        // TC- O(1)
         if(mp.find(key)!=mp.end()){
             Node* node = mp[key];
-
             node->val = value;
-
-            // Move to MRU
-            removeNode(node);
-            addNode(node);
-
+            remove(node);
+            add(node);
             return;
         }
 
         Node* node = new Node(key, value);
-        addNode(node);
+        add(node);
         mp[key] = node;
 
         if(mp.size()>capacity){
             Node* lru = head->next;
-            removeNode(lru);
+            remove(lru);
             mp.erase(lru->key);
             delete lru;
         }
