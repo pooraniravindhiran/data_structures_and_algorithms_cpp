@@ -1,35 +1,36 @@
-// SC- O(k) where k is num of unique pts
-
 class DetectSquares {
 private:
     unordered_map<int, unordered_map<int, int>> points;
 public:
     DetectSquares() {
+        
     }
     
     void add(vector<int> point) {
-        // TC- O(1)
-        points[point[0]][point[1]]++;
+        int x = point[0];
+        int y = point[1];
+
+        points[x][y]++;
     }
     
     int count(vector<int> point) {
-        // TC- O(k)
-        int x1 = point[0];
-        int y1 = point[1];
         int ans = 0;
 
-        // check for x2, y2 with same x value
-        for(const auto& [y2, freq]: points[x1]){
-            int d = y1-y2;
+        int x1 = point[0];
+        int y1 = point[1];
 
-            if(d==0)
+        for(auto& x2:points){
+            int dx = abs(x2.first-x1);
+            if(dx==0)
                 continue;
             
-            // check for right square
-            ans += freq * points[x1+d][y1] * points[x1+d][y2];
-
-            // check for left square
-            ans += freq * points[x1-d][y1] * points[x1-d][y2];
+            for(auto& [y2, freq]:points[x2.first]){
+                int dy = abs(y2-y1);
+                if(dx!=dy)
+                    continue;
+                
+                ans += freq* points[x1][y2] * points[x2.first][y1];
+            }
         }
         return ans;
     }
