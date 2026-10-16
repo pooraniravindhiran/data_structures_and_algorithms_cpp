@@ -6,81 +6,78 @@ private:
         int freq;
         Node* prev;
         Node* next;
+
         Node(int k, int v):key(k), val(v){
             freq = 1;
             prev = NULL;
-            next= NULL;
+            next = NULL;
         }
     };
 
-    int capacity, min_freq;
-
+    int capacity;
+    int min_freq;
     unordered_map<int, Node*> mp;
-    
-    // freq -> DLL of nodes
-    unordered_map<int, Node*> freqHead;
-    unordered_map<int, Node*> freqTail;
+    unordered_map<int, Node*> heads;
+    unordered_map<int, Node*> tails;
 
-    void removeNode(Node* node){
+    void add_node(Node* node){
+        int freq = 1;
+        if(tails.find(freq)==tails.end()){
+            heads[freq] = new Node(-1, -1);
+            tails[freq] = new Node(-1, -1);
+            heads[freq]->next = tails[freq];
+            tails[freq]->prev = heads[freq];
+        }
+        tails[freq]->prev->next = node;
+        node->prev = tails[freq]->prev;
+        node->next = tails[freq];
+        tails[freq]->prev = node;
+    }
+
+    void remove_node(Node* node){
         node->prev->next = node->next;
         node->next->prev = node->prev;
     }
 
-    void addNode(Node* node){
+    void update_node(Node* node){
         int freq = node->freq;
 
-        // if freq is not present
-        if(freqHead.find(freq)==freqHead.end()){
-            freqHead[freq] = new Node(0, 0);
-            freqTail[freq] = new Node(0, 0);
+        // remove node
+        remove_node(node);
 
-            freqHead[freq]-> next = freqTail[freq];
-            freqTail[freq]-> prev = freqHead[freq];
+        // if only node in freq, remove freq and update min_freq
+        if (heads[freq]->next == tails[freq]){
+            heads.erase(freq);
+            tails.erase(freq);
+            if(min_freq==freq)
+                min_freq = min_freq+1;
         }
 
-        Node* tail = freqTail[freq];
+        // inc freq
+        node->freq ++;
+
+        // add to new freq
+        int newFreq = node->freq;
+
+        if (heads.find(newFreq) == heads.end()) {
+            heads[newFreq] = new Node(0, 0);
+            tails[newFreq] = new Node(0, 0);
+
+            heads[newFreq]->next = tails[newFreq];
+            tails[newFreq]->prev = heads[newFreq];
+        }
+
+        Node* tail = tails[newFreq];
         tail->prev->next = node;
         node->prev = tail->prev;
         node->next = tail;
         tail->prev = node;
     }
 
-    void increaseFreq(Node* node){
-        // get freq
-        int freq = node->freq;
-
-        // remove node
-        removeNode(node);
-
-        // update min freq if needed
-        if(min_freq==freq and freqHead[freq]->next==freqTail[freq]){
-            min_freq++;
-        }
-
-        // update freq
-        node->freq++;
-
-        // add to new freq
-        addNode(node);
-    }
-
 public:
     LFUCache(int capacity) {
         this->capacity = capacity;
         min_freq = 0;
-    }
-
-    ~LFUCache(){
-        for (auto &p : mp) {
-            delete p.second;
-        }
-
-        for(auto &p: freqHead)
-            delete p.second;
-
-        for(auto &p: freqTail)
-            delete p.second;
-        
     }
     
     int get(int key) {
@@ -89,35 +86,37 @@ public:
         
         Node* node = mp[key];
 
-        increaseFreq(node);
+        // update freq and recency and min_freq
+        update_node(node);
 
-        // get and return val
         return node->val;
     }
     
     void put(int key, int value) {
-        // if key there, update val and freq
+        
         if(mp.find(key)!=mp.end()){
             Node* node = mp[key];
+
             node->val = value;
-            increaseFreq(node);
+
+            // update freq and recency and min_freq
+            update_node(node);
+
             return;
         }
 
-        // if not there, add it
         Node* node = new Node(key, value);
-        addNode(node);
+        // add node
+        add_node(node);
         mp[key] = node;
 
-        // if capacity reached, evict LF/ LRU
         if(mp.size()>capacity){
-            Node* lru = freqHead[min_freq]->next;
-            removeNode(lru);
+            // remove lru from list and mp and delete it
+            Node* lru = heads[min_freq]->next;
+            remove_node(lru);
             mp.erase(lru->key);
-            delete lru;
+            delete(lru);
         }
-
-        // update min_freq
         min_freq = 1;
     }
 };
