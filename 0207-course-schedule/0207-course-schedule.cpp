@@ -30,7 +30,7 @@ public:
 
         // start dfs for every course that is not visited
         for(int i=0; i<numCourses; i++){
-            if(state[i]!=2){
+            if(state[i]==0){
                 if(hascycle(adjlist, state, i))
                     return false;
             }
