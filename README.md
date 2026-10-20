@@ -807,4 +807,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+## Directed Acyclic Graph
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0207-course-schedule](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0207-course-schedule/) | Medium |
 <!---LeetCode Topics End-->
