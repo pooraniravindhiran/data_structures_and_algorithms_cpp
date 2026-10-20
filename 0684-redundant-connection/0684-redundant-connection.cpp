@@ -41,14 +41,12 @@ public:
 class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        int n= edges.size();
-        UnionFind uf(n+1);
+        UnionFind uf(edges.size()+1);
 
-        for(auto& edge:edges){
-            if(uf.unite(edge[0], edge[1])==false){
+       for(auto& edge:edges){
+            if(uf.unite(edge[0], edge[1])==false)
                 return edge;
-            }
-        }
-        return {};
+       }
+       return {};
     }
 };
