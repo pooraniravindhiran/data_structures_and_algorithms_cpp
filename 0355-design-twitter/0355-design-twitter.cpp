@@ -1,8 +1,8 @@
 class Twitter {
 private:
+    unordered_map<int, vector<pair<int, int>>> tweets; // user_id, tweet ids
+    unordered_map<int, unordered_set<int>> following;
     int t;
-    unordered_map<int, vector<pair<int, int>>> tweets;
-    unordered_map<int, unordered_set<int>> followees;
 
 public:
     Twitter() {
@@ -10,48 +10,50 @@ public:
     }
     
     void postTweet(int userId, int tweetId) {
-        tweets[userId].push_back({t++, tweetId});
+        // TC- O(1)
+        tweets[userId].push_back({t, tweetId});
+        t++;
     }
     
     vector<int> getNewsFeed(int userId) {
-        priority_queue<tuple<int, int, int, int>> max_heap;
+        // TC- O(ulogu)
         vector<int> ans;
+        following[userId].insert(userId);
 
-        follow(userId, userId);
-        for(auto& followee:followees[userId]){
-            if (!tweets[followee].empty()){
-                int idx = tweets[followee].size()-1;
-                max_heap.push({tweets[followee][idx].first, followee, tweets[followee][idx].second, idx});
+        priority_queue<tuple<int, int, int, int>, vector<tuple<int, int, int, int>>, less<tuple<int, int, int, int>>> max_heap;
+        for(int user: following[userId]){
+            if (tweets[user].empty())
+                continue;
+            int idx = tweets[user].size()-1;
+            auto latest_tweet = tweets[user][idx];
+            max_heap.push({latest_tweet.first, latest_tweet.second, idx, user});
+        }
+
+        while(!max_heap.empty()){
+            if(ans.size()==10)
+                break;
+            
+            auto [time, tweet_id, idx, user] = max_heap.top();
+            max_heap.pop();
+            ans.push_back(tweet_id);
+
+            if(idx>0){
+                idx --;
+                max_heap.push({tweets[user][idx].first, tweets[user][idx].second, idx, user});
             }
         }
-
-        while(!max_heap.empty() and ans.size()<10){
-            // get top 
-            auto [time, user, tweetId, idx] = max_heap.top();
-
-            // pop
-            max_heap.pop();
-
-            ans.push_back(tweetId);
-
-            // dec that 
-            idx = idx-1;
-
-            // add it to heap
-            if(idx>=0)
-                max_heap.push({tweets[user][idx].first, user, tweets[user][idx].second, idx});
-        }
-
-        unfollow(userId, userId);
+        following[userId].erase(userId);
         return ans;
     }
     
     void follow(int followerId, int followeeId) {
-        followees[followerId].insert(followeeId);
+        // TC- O(1)
+        following[followerId].insert(followeeId);
     }
     
     void unfollow(int followerId, int followeeId) {
-        followees[followerId].erase(followeeId);
+        // TC- O(1)
+        following[followerId].erase(followeeId);
     }
 };
 
