@@ -7,31 +7,29 @@ public:
     }
     
     void addNum(int num) {
-        // TC- O(logn)
-        // SC- O(n)
         if(max_heap.empty() or num<max_heap.top())
             max_heap.push(num);
-        else    
+        else
             min_heap.push(num);
         
-        // balance the heaps
-        if(min_heap.size()>max_heap.size()){
-            max_heap.push(min_heap.top());
-            min_heap.pop();
-        }
-        else if(min_heap.size()+1<max_heap.size()){
-            min_heap.push(max_heap.top());
+        // balance
+        if(max_heap.size()>min_heap.size()+1){
+            int top = max_heap.top();
             max_heap.pop();
+            min_heap.push(top);
+        }
+        else if(min_heap.size()>max_heap.size()){
+            int top = min_heap.top();
+            min_heap.pop();
+            max_heap.push(top);
         }
     }
     
     double findMedian() {
-        // TC- O(1)
-        // SC- O(1)
-        if(min_heap.size()==max_heap.size())
-            return (double)(min_heap.top()+max_heap.top())/2.0;
-        else
-            return max_heap.top();
+        if(max_heap.size()>min_heap.size())
+            return (double) max_heap.top();
+        
+        return (double) (max_heap.top()+min_heap.top()) / 2.0;
     }
 };
 
