@@ -1,3 +1,6 @@
+// TC- O(v+eloge)
+// SC- O(v+e)
+
 class Solution {
 private:
     vector<int> dist; // shortest time from source k to node
