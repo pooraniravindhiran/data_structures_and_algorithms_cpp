@@ -170,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0212-word-search-ii/) | Hard |
 | [0224-basic-calculator](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0224-basic-calculator/) | Hard |
 | [0227-basic-calculator-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0227-basic-calculator-ii/) | Medium |
+| [0301-remove-invalid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0332-reconstruct-itinerary](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0332-reconstruct-itinerary/) | Hard |
 | [0394-decode-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0394-decode-string/) | Medium |
 | [0402-remove-k-digits](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0402-remove-k-digits/) | Medium |
@@ -281,6 +282,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0210-course-schedule-ii/) | Medium |
 | [0261-graph-valid-tree](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0261-graph-valid-tree/) | Medium |
 | [0286-walls-and-gates](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0286-walls-and-gates/) | Medium |
+| [0301-remove-invalid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0317-shortest-distance-from-all-buildings](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0317-shortest-distance-from-all-buildings/) | Hard |
 | [0323-number-of-connected-components-in-an-undirected-graph](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0323-number-of-connected-components-in-an-undirected-graph/) | Medium |
 | [0417-pacific-atlantic-water-flow](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0417-pacific-atlantic-water-flow/) | Medium |
@@ -742,6 +744,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0037-sudoku-solver](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0037-sudoku-solver/) | Hard |
 | [0079-word-search](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0079-word-search/) | Medium |
 | [0212-word-search-ii](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0212-word-search-ii/) | Hard |
+| [0301-remove-invalid-parentheses](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0301-remove-invalid-parentheses/) | Hard |
 | [0465-optimal-account-balancing](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0465-optimal-account-balancing/) | Hard |
 | [1723-find-minimum-time-to-finish-all-jobs](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1723-find-minimum-time-to-finish-all-jobs/) | Hard |
 ## Bitmask
