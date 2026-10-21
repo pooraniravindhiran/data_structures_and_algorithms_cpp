@@ -811,4 +811,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0207-course-schedule](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0207-course-schedule/) | Medium |
+## Dijkstra's Algorithm
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0743-network-delay-time](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0743-network-delay-time/) | Medium |
 <!---LeetCode Topics End-->
