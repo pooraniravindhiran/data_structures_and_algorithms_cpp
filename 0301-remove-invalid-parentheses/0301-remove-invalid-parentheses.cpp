@@ -1,6 +1,8 @@
 class Solution {
 private:
     bool is_valid(string s){
+        // TC- O(l)
+        // SC- O(l)
         stack<char> st;
         for(int i=0; i<s.size(); i++){
             if(s[i]=='(')
@@ -17,6 +19,7 @@ private:
     }
 public:
     vector<string> removeInvalidParentheses(string s) {
+        // SC - O(2^l)
         queue<string> q;
         unordered_set<string> visited;
 
