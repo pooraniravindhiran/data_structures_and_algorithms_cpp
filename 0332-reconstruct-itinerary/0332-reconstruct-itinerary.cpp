@@ -8,10 +8,11 @@ private:
     void dfs(string airport){
         vector<string>& neighbors = adj_mat[airport];
         while(!neighbors.empty()){
-            string first = neighbors.back();
+            string dst = neighbors.back();
             neighbors.pop_back();
-            dfs(first);
+            dfs(dst);
         }
+
         res.push_back(airport);
     }
 public:
