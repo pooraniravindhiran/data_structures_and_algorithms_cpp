@@ -1,37 +1,37 @@
-// SC- O(n)
+#include <random>
 
 class Solution {
 public:
-    vector<int> prefix_sum;
-    Solution(vector<int>& w) {
+    vector<int> cum_sum;
+    mt19937 gen;
+    uniform_int_distribution<int> distrib;
+
+    Solution(vector<int>& w) : gen(random_device{}()),
+          distrib(1, accumulate(w.begin(), w.end(), 0)){
         // TC- O(n)
-        // for probability based picking, you can select weights based on prefix sum
-        int ps = 0;
-        for(int i=0; i<w.size(); i++){
-            ps += w[i];
-            prefix_sum.push_back(ps);
-        }
+        cum_sum.assign(w.size(), 0);
+        cum_sum[0] = w[0];
+        for(int i=1; i<w.size(); i++)
+            cum_sum[i] += cum_sum[i-1]+w[i];
     }
     
     int pickIndex() {
         // TC- O(logn)
-        int i = rand()%prefix_sum.back() +1;
-        
-        // need the first pefix_sum idx >= i
-        int left = 0, right = prefix_sum.size()-1;
-        int ans = -1;
-        while(left<=right){
+        // pick random number
+        int i = distrib(gen);
+
+        // find 1st index >= i
+        int left = 0; 
+        int right = cum_sum.size()-1;
+        while(left<right){
             int mid = left+(right-left)/2;
-            if(prefix_sum[mid]==i)
-                return mid;
-            else if(prefix_sum[mid]<i)
+
+            if(cum_sum[mid]<i)
                 left = mid+1;
-            else{
-                ans = mid;
-                right = mid-1;
-            }
+            else
+                right = mid;
         }
-        return ans;
+        return left;
     }
 };
 
