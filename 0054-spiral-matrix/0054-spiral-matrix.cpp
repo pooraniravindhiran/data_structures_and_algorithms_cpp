@@ -1,39 +1,34 @@
-// TC- O(m*n)
-// SC- O(1)
-
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         vector<int> ans;
 
-        int left=0;
-        int up=0;
-        int down = matrix.size()-1;
-        int right=matrix[0].size()-1;
+        int m = matrix.size();
+        int n = matrix[0].size();
 
-        while(ans.size()<(matrix.size()*matrix[0].size())){
-            for(int col=left; col<=right; col++){
-                ans.push_back(matrix[up][col]);
-            }
-            for(int row=up+1; row<=down; row++){
-                ans.push_back(matrix[row][right]);
-            }
+        int left = 0, up = 0, right = n-1, down = m-1;
 
-            // Check if it is a different row before you start traversing right->left
-            if(up!=down){
-                for(int col=right-1; col>=left; col--){
-                    ans.push_back(matrix[down][col]);
-                }
-            }
-            // Check if it is a different col before you start traversing down->up
-            if(left!=right){
-                for(int row=down-1; row>up; row--){
-                    ans.push_back(matrix[row][left]);
-                }
+        while(ans.size()<(m*n)){
+            for(int j=left; j<=right; j++)
+                ans.push_back(matrix[up][j]);
+            up++;
+
+            for(int j=up; j<=down; j++)
+                ans.push_back(matrix[j][right]);
+            right--;
+
+            if(up<=down){
+                for(int j=right; j>=left; j--)
+                    ans.push_back(matrix[down][j]);
+                down--;
             }
 
-            // Update limits
-            left++; right--; up++; down--;
+            if(left<=right){
+                for(int j=down; j>=up; j--)
+                    ans.push_back(matrix[j][left]);
+                left++;
+            }
+        
         }
         return ans;
     }
