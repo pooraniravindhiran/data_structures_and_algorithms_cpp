@@ -1,51 +1,18 @@
-// TC- O(log(min(m, n))* mn* (mid^2))
-// SC- O(1)
-
-// class Solution {
-// private:
-//     bool squareExists(const int& m, const int& n, const int& mid, const vector< vector<int>>& mat, const int& threshold){
-//         for(int i=0; i<(m-mid)+1; i++){
-//             for(int j=0; j<(n-mid)+1; j++){
-//                 int sum = 0;
-//                 for(int row=i; row<i+mid; row++){
-//                     for(int col=j; col<j+mid; col++){
-//                         sum += mat[row][col];
-//                     }
-//                 }
-//                 if(sum<=threshold)
-//                     return true;
-//             }
-//         }
-//         return false;
-//     }
-// public:
-//     int maxSideLength(vector<vector<int>>& mat, int threshold) {
-//         int m = mat.size(), n = mat[0].size();
-//         int left = 0, right = min(m, n);
-
-//         while(left<right){
-//             int mid = left+ (right-left+1)/2;
-
-//             if(squareExists(m, n, mid, mat, threshold))
-//                 left = mid;
-//             else
-//                 right = mid-1;
-//         }
-//         return left;
-//     }
-// };
-
-// TC- O(log(min(m, n))*mn)
+// TC- O(mnlog(min(m, n))
 // SC- O(mn)
 
 class Solution {
 private:
-    bool squareExists(const int& m, const int& n, const int& mid, const vector< vector<int>>& prefix_sum, const int& threshold){
-        for(int i=0; i<(m-mid)+1; i++){
-            for(int j=0; j<(n-mid)+1; j++){
-                // from i to i+mid-1 and j to j+mid-1
-                int sum = prefix_sum[i+mid][j+mid] - prefix_sum[i][j+mid]- prefix_sum[i+mid][j] +prefix_sum[i][j];
-                if(sum<=threshold)
+    vector<vector<int>> ps;
+    bool is_possible(int side, int t){
+        int m = ps.size()-1;
+        int n = ps[0].size()-1;
+
+        for(int i=0; i<m-side+1; i++){
+            for(int j=0; j<n-side+1; j++){
+                // i to i+2, j to j+2
+                int sum_sq = ps[i+side][j+side]-ps[i][j+side]-ps[i+side][j]+ps[i][j];
+                if(sum_sq<=t)
                     return true;
             }
         }
@@ -53,26 +20,29 @@ private:
     }
 public:
     int maxSideLength(vector<vector<int>>& mat, int threshold) {
-        int m = mat.size(), n = mat[0].size();
-        int left = 0, right = min(m, n);
+        int m = mat.size();
+        int n = mat[0].size();
 
-        // compute prefix sum
-        vector<vector<int>> prefix_sum(m+1, vector<int>(n+1, 0));
-        for(int i=1; i<m+1; i++){
-            for(int j=1; j<n+1; j++)
-                prefix_sum[i][j] = mat[i-1][j-1] + prefix_sum[i-1][j] +prefix_sum[i][j-1] -prefix_sum[i-1][j-1];
+        ps.assign(m+1, vector<int>(n+1, 0));
+        for(int i=0; i<m; i++){
+            for(int j=0; j<n; j++){
+                ps[i+1][j+1] = ps[i][j+1] + ps[i+1][j] -ps[i][j]+mat[i][j];
+            }
         }
 
-        while(left<right){
-            int mid = left+ (right-left+1)/2;
+        int left = 1;
+        int right = min(m, n);
+        int ans = 0;
 
-            if(squareExists(m, n, mid, prefix_sum, threshold))
-                left = mid;
+        while(left<=right){
+            int mid = left+(right-left)/2;
+            if(is_possible(mid, threshold)){
+                ans = mid;
+                left = mid+1;
+            }
             else
                 right = mid-1;
         }
-        return left;
+        return ans;
     }
 };
-
-     
