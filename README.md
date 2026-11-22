@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0986-interval-list-intersections](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0986-interval-list-intersections/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1060-missing-element-in-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1060-missing-element-in-sorted-array/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1101-the-earliest-moment-when-everyone-become-friends/) | Medium |
 | [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
@@ -500,6 +501,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0981-time-based-key-value-store](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0981-time-based-key-value-store/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
 | [1055-shortest-way-to-form-string](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1055-shortest-way-to-form-string/) | Medium |
+| [1060-missing-element-in-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1060-missing-element-in-sorted-array/) | Medium |
 | [1146-snapshot-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1146-snapshot-array/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/) | Medium |
