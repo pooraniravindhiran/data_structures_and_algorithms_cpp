@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0986-interval-list-intersections](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0986-interval-list-intersections/) | Medium |
 | [0994-rotting-oranges](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0994-rotting-oranges/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1035-uncrossed-lines](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1035-uncrossed-lines/) | Medium |
 | [1060-missing-element-in-sorted-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1060-missing-element-in-sorted-array/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1101-the-earliest-moment-when-everyone-become-friends](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1101-the-earliest-moment-when-everyone-become-friends/) | Medium |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0542-01-matrix/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0871-minimum-number-of-refueling-stops](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0871-minimum-number-of-refueling-stops/) | Hard |
+| [1035-uncrossed-lines](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1035-uncrossed-lines/) | Medium |
 | [1235-maximum-profit-in-job-scheduling](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1235-maximum-profit-in-job-scheduling/) | Hard |
 | [1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1526-minimum-number-of-increments-on-subarrays-to-form-a-target-array/) | Hard |
 | [1723-find-minimum-time-to-finish-all-jobs](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1723-find-minimum-time-to-finish-all-jobs/) | Hard |
@@ -820,4 +822,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0743-network-delay-time](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/0743-network-delay-time/) | Medium |
+## Longest Common Subsequence
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1035-uncrossed-lines](https://github.com/pooraniravindhiran/data_structures_and_algorithms_cpp/tree/main/1035-uncrossed-lines/) | Medium |
 <!---LeetCode Topics End-->
