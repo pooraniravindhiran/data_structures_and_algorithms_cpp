@@ -44,9 +44,6 @@ public:
                 prev_char = next.second;
             }
         }
-
-        if(!max_heap.empty())
-            return "";
         
         return ans;
     }
