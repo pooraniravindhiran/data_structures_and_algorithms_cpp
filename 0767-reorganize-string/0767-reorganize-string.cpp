@@ -1,33 +1,53 @@
-// TC- O(nlog26)
-// SC- O(26)
+// TC- O(n)
+// SC- O(1)
 
 class Solution {
+private:
+    char prev_char = '#';
+    priority_queue<pair<int, char>> max_heap;
+    vector<int> freq_mp = vector<int> (26, 0);
 public:
     string reorganizeString(string s) {
-        unordered_map<char, int> freq_map;
-        for(auto& ch:s)
-            freq_map[ch]++;
-
-        priority_queue<pair<int, char>> max_heap;
-        for(auto& [ch, freq]:freq_map)
-            max_heap.push({freq, ch});
+        for(char& ch:s)
+            freq_mp[ch-'a']++;
         
-        pair<int, char> prev = {0, '#'};
-        string ans;
-
-        while(!max_heap.empty()){
-            auto curr = max_heap.top();
-            max_heap.pop();
-
-            ans += curr.second;
-
-            if (prev.first>0)
-                max_heap.push(prev);
-
-            --curr.first;
-            prev = curr;
+        for(int i=0; i<26; i++){
+            if(freq_mp[i]){
+                max_heap.push({freq_mp[i], i+'a'});
+                // cout<<i+'a'<<endl;
+            }
         }
 
-        return ans.size()==s.size() ? ans:"";
+        string ans;
+        while(!max_heap.empty()){
+            auto top = max_heap.top();
+            max_heap.pop();
+            // cout<< top.second<<endl;
+            if(prev_char!=top.second){
+                top.first--;
+                if(top.first)
+                    max_heap.push(top);
+                ans += top.second;
+                prev_char = top.second;
+            }
+            else{
+                if(max_heap.empty())
+                    return "";
+                
+                auto next = max_heap.top();
+                max_heap.pop();
+                next.first--;
+                if(next.first)
+                    max_heap.push(next);
+                max_heap.push(top);
+                ans += next.second;
+                prev_char = next.second;
+            }
+        }
+
+        if(!max_heap.empty())
+            return "";
+        
+        return ans;
     }
 };
