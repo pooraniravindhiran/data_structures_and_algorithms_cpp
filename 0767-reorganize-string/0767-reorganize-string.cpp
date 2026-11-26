@@ -2,12 +2,12 @@
 // SC- O(1)
 
 class Solution {
-private:
-    char prev_char = '#';
-    priority_queue<pair<int, char>> max_heap;
-    vector<int> freq_mp = vector<int> (26, 0);
 public:
     string reorganizeString(string s) {
+        char prev_char = '#';
+        priority_queue<pair<int, char>> max_heap;
+        vector<int> freq_mp (26, 0);
+
         for(char& ch:s)
             freq_mp[ch-'a']++;
         
